@@ -39,14 +39,14 @@ let handler = async (m, { conn, usedPrefix, __dirname, participants }) => {
     const user = global.db.data.users[m.sender] || {}
 
     const body = `
-╭━━━〔 🌟 𝑹𝑶𝑿𝒀 𝑴𝑫 𝑴𝑬𝑵Ú 🌟 〕━━━╮
-┃ 👤 Usuario: *${taguser}*
-┃ ⏱️ Activo: *${uptime}*
-┃ 👥 Grupo: *${groupUserCount}* miembros
-┃ 📋 Registro: ${registered ? '✅ COMPLETADO' : '❌ INCOMPLETO'}
+╭━━━〔 🌟 𝙁𝙀𝙉𝙍𝙔𝙎-𝘽𝙊𝙏 〕━━━╮
+┃ 👤 𝑼𝑺𝑼𝑨𝑹𝑰𝑶: *${taguser}*
+┃ ⏱️ 𝑨𝑪𝑻𝑰𝑽𝑶: *${uptime}*
+┃ 👥 𝑮𝑹𝑼𝑷𝑶: *${groupUserCount}* miembros
+┃ 📄 𝑹𝑬𝑮𝑰𝑺𝑻𝑹𝑶: ${registered ? '✅ COMPLETADO' : '❌ INCOMPLETO'}
 ╰━━━━━━━━━━━━━━━━━━━━━━╯
 
-╭━━━〔 🔰 MENÚ PRINCIPAL 〕━━━╮
+╭━━━〔 📜 𝗠𝗘𝗡𝗨 𝗙𝗘𝗡𝗥𝗬𝗦 〕━━━╮
 ┃ ✦ ${usedPrefix}reg <nombre edad>
 ┃ ✦ ${usedPrefix}unreg
 ┃ ✦ ${usedPrefix}menu
@@ -55,7 +55,7 @@ let handler = async (m, { conn, usedPrefix, __dirname, participants }) => {
 ┃ ✦ ${usedPrefix}owner
 ╰━━━━━━━━━━━━━━━━━━━━━━╯
 
-╭━━━〔 🎉 DIVERSIÓN 〕━━━╮
+╭━━━〔 🤡 𝗗𝗜𝗩𝗘𝗥𝗦𝗜𝗢𝗡 〕━━━╮
 ┃ ✦ ${usedPrefix}gay
 ┃ ✦ ${usedPrefix}pajeame
 ┃ ✦ ${usedPrefix}doxeo @usuario
@@ -65,7 +65,7 @@ let handler = async (m, { conn, usedPrefix, __dirname, participants }) => {
 ┃ ✦ ${usedPrefix}huevo
 ╰━━━━━━━━━━━━━━━━━━━━━━╯
 
-╭━━━〔 🎌 ANIME / ROLE 〕━━━╮
+╭━━━〔 🎌 𝗔𝗡𝗜𝗠𝗘 / 𝗥𝗢𝗟𝗘 〕━━━╮
 ┃ ✦ ${usedPrefix}angry
 ┃ ✦ ${usedPrefix}bite
 ┃ ✦ ${usedPrefix}buenasnoches
@@ -80,7 +80,7 @@ let handler = async (m, { conn, usedPrefix, __dirname, participants }) => {
 ┃ ✦ ${usedPrefix}reclamawaifu
 ╰━━━━━━━━━━━━━━━━━━━━━━╯
 
-╭━━━〔 📥 DESCARGAS 〕━━━╮
+╭━━━〔 📥 𝗗𝗘𝗦𝗖𝗔𝗥𝗚𝗔𝗦 〕━━━╮
 ┃ ✦ ${usedPrefix}tiktok
 ┃ ✦ ${usedPrefix}play
 ┃ ✦ ${usedPrefix}pindl <link>
@@ -88,15 +88,15 @@ let handler = async (m, { conn, usedPrefix, __dirname, participants }) => {
 ┃ ✦ ${usedPrefix}facebook <link>
 ╰━━━━━━━━━━━━━━━━━━━━━━╯
 
-╭━━━〔 👥 GRUPO 〕━━━╮
+╭━━━〔 👥 𝗚𝗥𝗨𝗣𝗢𝗦 〕━━━╮
 ┃ ✦ ${usedPrefix}invocar
 ┃ ✦ ${usedPrefix}setppgrupo
 ┃ ✦ ${usedPrefix}kick <@tag>
 ┃ ✦ ${usedPrefix}tag
 ┃ ✦ ${usedPrefix}del
-╰━━━━━━━━━━━━━━━━━━━━━━╯
+╰━━━━━━━━━━━━━━━━━━━╯
 
-╭━━━〔 🧠 IA & ARTE 〕━━━╮
+╭━━━〔 🤖 𝗜𝗔 & 𝗔𝗥𝗧𝗘 〕━━━╮
 ┃ ✦ ${usedPrefix}magicstudio <texto>
 ┃ ✦ ${usedPrefix}ai <texto>
 ┃ ✦ ${usedPrefix}editfoto <desc>
@@ -106,18 +106,18 @@ let handler = async (m, { conn, usedPrefix, __dirname, participants }) => {
 ┃ ✦ ${usedPrefix}bgremover <imagen>
 ╰━━━━━━━━━━━━━━━━━━━━━━╯
 
-╭━━━〔 👑 OWNER 〕━━━╮
+╭━━━〔 👑 𝗢𝗪𝗡𝗘𝗥 〕━━━╮
 ┃ ✦ ${usedPrefix}setpp <img>
 ┃ ✦ ${usedPrefix}restart
 ┃ ✦ ${usedPrefix}update
-╰━━━━━━━━━━━━━━━━━━━━━━╯
+╰━━━━━━━━━━━━━━━━━━╯
 
-╭━━━〔 ✨ STICKERS 〕━━━╮
+╭━━━〔 ✨ 𝗦𝗧𝗜𝗖𝗞𝗘𝗥 〕━━━╮
 ┃ ✦ ${usedPrefix}sticker <img>
 ┃ ✦ ${usedPrefix}brat <texto>
-╰━━━━━━━━━━━━━━━━━━━━━━╯
+╰━━━━━━━━━━━━━━━━━━━━╯
 
-╭━━━〔 🧰 HERRAMIENTAS 〕━━━╮
+╭━━━〔 🛠️ 𝗛𝗘𝗥𝗥𝗔𝗠𝗜𝗘𝗡𝗧𝗔𝗦 〕━━━╮
 ┃ ✦ ${usedPrefix}iqc <texto>
 ┃ ✦ ${usedPrefix}rvocal <audio>
 ┃ ✦ ${usedPrefix}tourl2
@@ -125,9 +125,9 @@ let handler = async (m, { conn, usedPrefix, __dirname, participants }) => {
 ┃ ✦ ${usedPrefix}tourl <imagen>
 ╰━━━━━━━━━━━━━━━━━━━━━━╯
 
-╭━━━〔 💖 FINAL 〕━━━╮
-┃ ✦ Gracias por usar *Roxy MD Bot*
-╰━━━━━━━━━━━━━━━━━━━━━━╯
+╭━━━〔 🚀 𝗦𝗨𝗕-𝗕𝗢𝗧 〕━━━╮
+┃ ✦ .code / .qr
+╰━━━━━━━━━━━━━━━━━━━━╯
 `.trim()
 
     const menu = `${header}\n${body}`
