@@ -23,7 +23,7 @@ async function handler(m, { conn: _envio, usedPrefix }) {
 
   const responseMessage = `🎀 𝑭𝒆𝒏𝒓𝒚𝒔 𝑱𝒂𝒅𝒊𝑩𝒐𝒕 𝑨𝒄𝒕𝒊𝒗𝒐𝒔 🤍\n\n${replyMessage}`
 
-  let img = await (await fetch(`https://files.catbox.moe/q94jaz.jpg`)).buffer()
+  let img = await (await fetch(`https://files.catbox.moe/g80cfk.jpg`)).buffer()
 
   await _envio.sendFile(m.chat, img, 'roxy-jadibots.jpg', responseMessage, m, false, {
     mentions: _envio.parseMention(responseMessage)
