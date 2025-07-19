@@ -32,22 +32,21 @@ console.log(`Error : ${e}`)
 global.creador = 'Wa.me/18493907272'
 global.ofcbot = `Wa.me/${conn.user.jid.split('@')[0]}?text=✨️hl`
 global.asistencia = 'Wa.me/18493907272'
-global.namechannel = '🌸◌*̥₊ Rᴏxʏ-Mᴅ ◌❐🎋༉'
-global.namechannel2 = '🌸◌*̥₊ Rᴏxʏ-Mᴅ ◌❐🎋༉'
-global.namegrupo = '𝐑𝐎𝐗𝐘 𝐆𝐑𝐔𝐏𝐎'
-global.namecomu = '𝐓𝐇𝐄 𝐑𝐎𝐗𝐘 𝐂𝐎𝐌𝐔𝐍𝐈𝐓𝐘'
-global.listo = '𝑨𝑸𝑼𝑰 𝑻𝑰𝑬𝑵𝑬 𝑮𝑹𝑨𝑪𝑰𝑨𝑺 𝑿 𝑬𝑺𝑷𝑬𝑹𝑨𝑹 ˃ 𖥦 ˂'
+global.namechannel = 'ᰔᩚ𝑭𝒆𝒏𝒓𝒚𝒔𝑩𝒐𝒕–𝑶𝒇𝒊𝒄𝒖𝒂𝒍ᰔᩚ'
+global.namechannel2 = 'ᰔᩚ𝑭𝒆𝒏𝒓𝒚𝒔𝑩𝒐𝒕–(𝑴𝒖𝒍𝒕𝒊 𝑫𝒆𝒗𝒊𝒄𝒆)ᰔᩚ'
+global.namegrupo = 'ᰔᩚ𝑭𝒆𝒏𝒓𝒚𝒔𝑮𝒓𝒑𝒔–𝑶𝒇𝒄ᰔᩚ'
+global.namecomu = 'ᰔᩚ𝑭𝒆𝒏𝒓𝒚𝒔𝑺𝒖𝒃-𝑩𝒐𝒕 (𝑶𝒇𝒊𝒄𝒂𝒍)ᰔᩚ'
+global.listo = '𝑳𝑰𝑺𝑻𝑶/𝑨 𝑮𝑹𝑨𝑪𝑰𝑨 𝑷𝑶𝑹 𝑬𝑺𝑷𝑬𝑹𝑨𝑹 ฅ^•ﻌ•^ฅ'
 global.fotoperfil = await conn.profilePictureUrl(m.sender, 'image').catch(_ => catalogo,)
 
 // ᑕᗩᑎᗩᒪ ᗪᗴ ᒪᗩ ᗷOT
 global.idchannel = '120363312092804854@newsletter'
 global.canalIdM = ["120363312092804854@newsletter", "120363312092804854@newsletter"]
-global.canalNombreM = ["🌸◌*̥₊ Rᴏxʏ-Mᴅ ◌❐🎋༉", "𝗧𝗢𝗖𝗔 𝗔𝗤𝗨𝗜 ✨️"]
+global.canalNombreM = ["𝑭𝑬𝑵𝑹𝒀𝑺–𝑩𝑶𝑻🌸✨", "ᰔᩚ𝑭𝑬𝑵𝑹𝒀𝑺–𝑼𝑷𝑫𝑨𝑻𝑬ᰔᩚ"]
 global.channelRD = await getRandomChannel()
 
 
 global.mensajes = getMensajeSistema();
-
 // ᖴᗴᑕᕼᗩՏ
 global.d = new Date(new Date + 3600000)
 global.locale = 'es'
@@ -63,12 +62,12 @@ global.done = '✅'
 global.error = '✖️'
 global.msm = '⚠️'
 
-global.emoji0 = '૮₍ ˶•⤙•˶ ₎ა ✨️'
-global.emoji1 = '૮₍ ˶•⤙•˶ ₎ა ✨️'
-global.emoji2 = '૮₍ ˶•⤙•˶ ₎ა ✨️'
-global.emoji3 = '૮₍ ˶•⤙•˶ ₎ა ✨️'
-global.emoji4 = '૮₍ ˶•⤙•˶ ₎ა ✨️'
-global.emoji5 = '૮₍ ˶•⤙•˶ ₎ა ✨️'
+global.emoji0 = '૮₍ ˶•⤙•˶ ₎ა 🌸'
+global.emoji1 = '૮₍ ˶•⤙•˶ ₎ა 🌸'
+global.emoji2 = '૮₍ ˶•⤙•˶ ₎ა 🌸'
+global.emoji3 = '૮₍ ˶•⤙•˶ ₎ა 🌸'
+global.emoji4 = '૮₍ ˶•⤙•˶ ₎ა 🌸'
+global.emoji5 = '૮₍ ˶•⤙•˶ ₎ა 🌸'
 global.emojis = [emoji0, emoji2, emoji3, emoji4, emoji5].getRandom()
 global.emoji = [emoji0, emoji2, emoji3, emoji4, emoji5].getRandom()
 
@@ -110,7 +109,7 @@ var more = String.fromCharCode(8206)
 global.readMore = more.repeat(850)
 
 //Fakes
-let pp = null; try { pp = await conn.profilePictureUrl('18493907272@s.whatsapp.net', 'image') } catch (e) { pp = null } global.fkontak = { key: {participant: `0@s.whatsapp.net`, ...(m.chat ? { remoteJid: `120363402481697721@g.us` } : {}) }, message: { 'contactMessage': { 'displayName': `DevBrayan owner ✨`, 'vcard': `BEGIN:VCARD\nVERSION:3.0\nN:XL;DevBrayan owner✨,;;;\nFN:DevBrayan creador\nitem1.TEL;waid=18493907272:18493907272\nitem1.X-ABLabel:Ponsel\nEND:VCARD`, 'jpegThumbnail': pp ? await (await fetch(pp)).buffer() : null, thumbnail: null, sendEphemeral: true }}}
+let pp = null; try { pp = await conn.profilePictureUrl('18493907272@s.whatsapp.net', 'image') } catch (e) { pp = null } global.fkontak = { key: {participant: `0@s.whatsapp.net`, ...(m.chat ? { remoteJid: `120363402481697721@g.us` } : {}) }, message: { 'contactMessage': { 'displayName': `DevErenxzy ✨`, 'vcard': `BEGIN:VCARD\nVERSION:3.0\nN:XL;DevErenxzy ✨,;;;\nFN: DevErenxzy creador\nitem1.TEL;waid=18493907272:18493907272\nitem1.X-ABLabel:Ponsel\nEND:VCARD`, 'jpegThumbnail': pp ? await (await fetch(pp)).buffer() : null, thumbnail: null, sendEphemeral: true }}}
 
 global.fake = { contextInfo: { isForwarded: true, forwardedNewsletterMessageInfo: { newsletterJid: channelRD.id, newsletterName: channelRD.name, serverMessageId: -1 }
 }}, { quoted: m }
@@ -120,13 +119,12 @@ global.fake = { contextInfo: { isForwarded: true, forwardedNewsletterMessageInfo
 
 
 global.icono = [ 
-'https://files.cloudkuimages.guru/images/z4rwLoXF.jpg',
-'https://files.cloudkuimages.guru/images/z4rwLoXF.jpg',
-'https://files.cloudkuimages.guru/images/FoRfISXZ.jpg',
-'https://files.cloudkuimages.guru/images/fJSweUYE.jpg',
-'https://files.cloudkuimages.guru/images/UJ4byDZm.jpg'
-].getRandom()
-
+'https://files.catbox.moe/cdx5px.jpg',
+'https://files.catbox.moe/ja853f.jpg',
+'https://files.catbox.moe/fcnuso.jpg',
+'https://files.catbox.moe/8461tw.jpg',
+'ht'
+].getRandom
 global.rcanal = { contextInfo: { isForwarded: true, forwardedNewsletterMessageInfo: { /*newsletterJid: channelRD.id,*/ serverMessageId: 100, /*newsletterName: channelRD.name,*/ }, externalAdReply: { showAdAttribution: true, title: textbot, body: dev, mediaUrl: null, description: null, previewType: "PHOTO", thumbnailUrl: icono, sourceUrl: redes, mediaType: 1, renderLargerThumbnail: false }, }, }}
 
 
