@@ -25,9 +25,9 @@ let handler = async (m, { conn, usedPrefix, __dirname, participants }) => {
     let pais = phone.getRegionCode() || 'Desconocido 🌐'
 
     const vids = [
-      'https://files.cloudkuimages.guru/videos/RhnYWAae.mp4',
-      'https://files.cloudkuimages.guru/videos/RhnYWAae.mp4',
-      'https://files.cloudkuimages.guru/videos/RhnYWAae.mp4'
+      'https://files.catbox.moe/b7w0bf.mp4',
+      'https://files.catbox.moe/mlp65k.mp4',
+      'https://files.catbox.moe/b7w0bf.mp4'
     ]
     let videoUrl = vids[Math.floor(Math.random() * vids.length)]
 
@@ -43,7 +43,7 @@ let handler = async (m, { conn, usedPrefix, __dirname, participants }) => {
 
 
     const channelRD = { 
-      id: '120363312092804854@newsletter', 
+      id: '120363417252896376@newsletter', 
       name: 'Oficial channel Roxy-MD'
     }
 
