@@ -48,29 +48,7 @@ let handler = async (m, { conn, usedPrefix, __dirname, participants }) => {
     }
 
 
-    const metaMsg = {
-      quoted: global.fakeMetaMsg,
-      contextInfo: {
-        mentionedJid: [m.sender],
-        isForwarded: true,
-        forwardedNewsletterMessageInfo: {
-          newsletterJid: channelRD.id,
-          serverMessageId: 100,
-          newsletterName: channelRD.name
-        },
-        externalAdReply: {
-          title: '🌸 𝗥𝗢𝗫𝗬 𝗠𝗗 𝗕𝗢𝗧 🌸',
-          body: '© 𝑃𝑜𝑤𝑒𝑟𝑒𝑑 𝐵𝑦 𝐷𝑒𝑣𝐵𝑟𝑎𝑦𝑎𝑛',
-          mediaUrl: null,
-          description: null,
-          previewType: "PHOTO",
-          thumbnailUrl: 'https://files.catbox.moe/9i5o9z.jpg',
-          sourceUrl: 'https://github.com/El-brayan502/Roxy-MD--Multi-Device/',
-          mediaType: 1,
-          renderLargerThumbnail: true
-        }
-      }
-    }
+   
 
     const body = `
 ╭───❀˚･ﾟ✧ ʀᴏxʏ ᴍᴅ ᴍᴇɴú ✧ﾟ･˚❀───╮
