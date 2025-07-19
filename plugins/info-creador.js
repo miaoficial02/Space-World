@@ -20,8 +20,6 @@ let handler = async (m, { conn }) => {
       buttons: [
         { name: 'WhatsApp', url: 'https://wa.me/18493907272' },
         { name: 'Instagram', url: 'https://www.instagram.com/xsdani_16' },
-        { name: 'Facebook', url: 'https://www.facebook.com/share/18vWtmckN3/' },
-        { name: 'Telegram', url: 'https://t.me/erenxszy01' },
         { name: 'TikTok', url: 'https://www.tiktok.com/@zxydaa16' },
         { name: 'PayPal', url: 'https://paypal.me/Erenxs01' }
       ]
