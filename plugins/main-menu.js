@@ -39,95 +39,95 @@ let handler = async (m, { conn, usedPrefix, __dirname, participants }) => {
     const user = global.db.data.users[m.sender] || {}
 
     const body = `
-╭───❀˚･ﾟ✧ ʀᴏxʏ ᴍᴅ ᴍᴇɴú ✧ﾟ･˚❀───╮
-│ 🍓 *𝘏𝘰𝘭𝘢 𝘦𝘯 𝘲𝘶𝘦 𝘱𝘶𝘦𝘥𝘰 𝘢𝘺𝘶𝘥𝘢𝘳*
-│ 🌵 *𝘜𝘴𝘶𝘢𝘳𝘪𝘰* :: *${taguser}*
-│ ⏰ *𝘛𝘪𝘦𝘮𝘱𝘰 𝘦𝘯 𝘭𝘪𝘯𝘪𝘢* :: *${uptime}*
-│ 🍄 *𝘔𝘪𝘦𝘯𝘣𝘳𝘰𝘴 𝘦𝘯 𝘦𝘭 𝘤𝘩𝘢𝘵* :: *${groupUserCount}*
-│ 🍰 *𝘙𝘦𝘨𝘪𝘴𝘵𝘳𝘰* :: ${registered ? '✅ ᴄᴏᴍᴘʟᴇᴛᴀᴅᴏ' : '❌ ɪɴᴄᴏᴍᴘʟᴇᴛᴏ'}
-╰─────────────♡─────────────╯
+╭━━━〔 🌟 𝑹𝑶𝑿𝒀 𝑴𝑫 𝑴𝑬𝑵Ú 🌟 〕━━━╮
+┃ 👤 Usuario: *${taguser}*
+┃ ⏱️ Activo: *${uptime}*
+┃ 👥 Grupo: *${groupUserCount}* miembros
+┃ 📋 Registro: ${registered ? '✅ COMPLETADO' : '❌ INCOMPLETO'}
+╰━━━━━━━━━━━━━━━━━━━━━━╯
 
-*【𝕷 𝖎 𝖘 𝖙 𝖆 - 𝕯𝖊 - 𝕮 𝖔 𝖒 𝖆 𝖓 𝖉 𝖔 𝖘】*
+╭━━━〔 🔰 MENÚ PRINCIPAL 〕━━━╮
+┃ ✦ ${usedPrefix}reg <nombre edad>
+┃ ✦ ${usedPrefix}unreg
+┃ ✦ ${usedPrefix}menu
+┃ ✦ ${usedPrefix}ping
+┃ ✦ ${usedPrefix}grupos
+┃ ✦ ${usedPrefix}owner
+╰━━━━━━━━━━━━━━━━━━━━━━╯
 
-┏━━ 『 *☆ ᗰᗩIᑎ ᙭ ᖇᘜᑭ ☆* 』 ❃
-┃❒  ${usedPrefix}ʀᴇɢ <ɴᴏᴍʙʀᴇ ᴇᴅᴀᴅ>
-┃❒  ${usedPrefix}ᴜɴʀᴇɢ
-┃❒  ${usedPrefix}ᴍᴇɴᴜ
-┃❒  ${usedPrefix}ᴘɪɴɢ
-┃❒  ${usedPrefix}ɢʀᴜᴘᴏs
-┃❒  ${usedPrefix}ᴏᴡɴᴇʀ
-┗━━━━━━━━━━━━━━━━━⪩
+╭━━━〔 🎉 DIVERSIÓN 〕━━━╮
+┃ ✦ ${usedPrefix}gay
+┃ ✦ ${usedPrefix}pajeame
+┃ ✦ ${usedPrefix}doxeo @usuario
+┃ ✦ ${usedPrefix}doxuer @usuario
+┃ ✦ ${usedPrefix}formarpareja
+┃ ✦ ${usedPrefix}formarpareja5
+┃ ✦ ${usedPrefix}huevo
+╰━━━━━━━━━━━━━━━━━━━━━━╯
 
-┏━━ 『 *☆ ᖴᑌᑎ ☆* 』 ❃
-┃❒  ${usedPrefix}ɢᴀʏ
-┃❒  ${usedPrefix}ᴘᴀᴊᴇᴀᴍᴇ
-┃❒  ${usedPrefix}ᴅᴏxᴇᴏ @usuario
-┃❒  ${usedPrefix}ᴅᴏxᴜᴇʀ @usuario
-┃❒  ${usedPrefix}ғᴏʀᴍᴀʀᴘᴀʀᴇᴊᴀ
-┃❒  ${usedPrefix}ғᴏʀᴍᴀʀᴘᴀʀᴇᴊᴀ𝟻
-┃❒  ${usedPrefix}ʜᴜᴇᴠᴏ
-┗━━━━━━━━━━━━━━━━━⪩
+╭━━━〔 🎌 ANIME / ROLE 〕━━━╮
+┃ ✦ ${usedPrefix}angry
+┃ ✦ ${usedPrefix}bite
+┃ ✦ ${usedPrefix}buenasnoches
+┃ ✦ ${usedPrefix}buenosdias
+┃ ✦ ${usedPrefix}cafe
+┃ ✦ ${usedPrefix}cry
+┃ ✦ ${usedPrefix}cuddle
+┃ ✦ ${usedPrefix}happy
+┃ ✦ ${usedPrefix}hello
+┃ ✦ ${usedPrefix}loli
+┃ ✦ ${usedPrefix}rw / w
+┃ ✦ ${usedPrefix}reclamawaifu
+╰━━━━━━━━━━━━━━━━━━━━━━╯
 
-┏━━ 『 *☆ áᑎIᗰᗴ ☆* 』 ❃
-┃❒  ${usedPrefix}ᴀɴɢʀʏ
-┃❒  ${usedPrefix}ʙɪᴛᴇ
-┃❒  ${usedPrefix}ʙᴜᴇɴᴀsɴᴏᴄʜᴇs
-┃❒  ${usedPrefix}ʙᴜᴇɴᴏsᴅɪ́ᴀs
-┃❒  ${usedPrefix}ᴄᴀғᴇ
-┃❒  ${usedPrefix}ᴄʀʏ
-┃❒  ${usedPrefix}ᴄᴜᴅᴅʟᴇ
-┃❒  ${usedPrefix}ʜᴀᴘᴘʏ
-┃❒  ${usedPrefix}ʜᴇʟʟᴏ
-┃❒  ${usedPrefix}ʟᴏʟɪ
-┃❒  ${usedPrefix}ʀᴡ
-┃❒  ${usedPrefix}ᴡ
-┃❒  ${usedPrefix}ʀᴇᴄʟᴀᴍᴀᴡᴀɪғᴜ
-┗━━━━━━━━━━━━━━━━━⪩
+╭━━━〔 📥 DESCARGAS 〕━━━╮
+┃ ✦ ${usedPrefix}tiktok
+┃ ✦ ${usedPrefix}play
+┃ ✦ ${usedPrefix}pindl <link>
+┃ ✦ ${usedPrefix}instagram <link>
+┃ ✦ ${usedPrefix}facebook <link>
+╰━━━━━━━━━━━━━━━━━━━━━━╯
 
-┏━━ 『 *☆ ᗪᗴՏᑕᗩᖇᘜáՏ ☆* 』 ❃
-┃❒  ${usedPrefix}ᴛɪᴋᴛᴏᴋ
-┃❒  ${usedPrefix}ᴘʟᴀʏ
-┃❒  ${usedPrefix}ᴘɪɴᴅʟ <link>
-┃❒  ${usedPrefix}ɪɴsᴛᴀɢʀᴀᴍ <link>
-┃❒  ${usedPrefix}ꜰᴀᴄᴇʙᴏᴏᴋ <link>
-┗━━━━━━━━━━━━━━━━━⪩
+╭━━━〔 👥 GRUPO 〕━━━╮
+┃ ✦ ${usedPrefix}invocar
+┃ ✦ ${usedPrefix}setppgrupo
+┃ ✦ ${usedPrefix}kick <@tag>
+┃ ✦ ${usedPrefix}tag
+┃ ✦ ${usedPrefix}del
+╰━━━━━━━━━━━━━━━━━━━━━━╯
 
-┏━━ 『 *☆ ᘜᖇᑌᑭO ☆* 』 ❃
-┃❒  ${usedPrefix}ɪɴᴠᴏᴄᴀʀ 
-┃❒  ${usedPrefix}sᴇᴛᴘᴘɢʀᴜᴘᴏ 
-┃❒  ${usedPrefix}ᴋɪᴄᴋ <@tag>
-┃❒  ${usedPrefix}ᴛᴀɢ
-┃❒  ${usedPrefix}ᴅᴇʟ
-┗━━━━━━━━━━━━━━━━━⪩
+╭━━━〔 🧠 IA & ARTE 〕━━━╮
+┃ ✦ ${usedPrefix}magicstudio <texto>
+┃ ✦ ${usedPrefix}ai <texto>
+┃ ✦ ${usedPrefix}editfoto <desc>
+┃ ✦ ${usedPrefix}wpw
+┃ ✦ ${usedPrefix}pollinations <texto>
+┃ ✦ ${usedPrefix}gemini
+┃ ✦ ${usedPrefix}bgremover <imagen>
+╰━━━━━━━━━━━━━━━━━━━━━━╯
 
-┏━━ 『 *☆ Iᗩ ᙭ ᗩᖇTᗴ ☆* 』 ❃
-┃❒  ${usedPrefix}ᴍᴀɢɪᴄsᴛᴜᴅɪᴏ <texto>
-┃❒  ${usedPrefix}ᴀɪ <texto>
-┃❒  ${usedPrefix}ᴇᴅɪᴛꜰᴏᴛᴏ <descripción>
-┃❒  ${usedPrefix}ᴡᴘᴡ
-┃❒  ${usedPrefix}ᴘᴏʟʟɪɴᴀᴛɪᴏɴs <texto>
-┃❒  ${usedPrefix}ɢᴇᴍɪɴɪ
-┃❒  ${usedPrefix}ʙɢʀᴇᴍᴏᴠᴇʀ <imagen>
-┗━━━━━━━━━━━━━━━━━⪩
+╭━━━〔 👑 OWNER 〕━━━╮
+┃ ✦ ${usedPrefix}setpp <img>
+┃ ✦ ${usedPrefix}restart
+┃ ✦ ${usedPrefix}update
+╰━━━━━━━━━━━━━━━━━━━━━━╯
 
-┏━━ 『 *☆ Oᗯᑎᗴᖇ ☆* 』 ❃
-┃❒  ${usedPrefix}sᴇᴛᴘᴘ <img>
-┃❒  ${usedPrefix}ʀᴇsᴛᴀʀᴛ
-┃❒  ${usedPrefix}ᴜᴘᴅᴀᴛᴇ
-┗━━━━━━━━━━━━━━━━━⪩
+╭━━━〔 ✨ STICKERS 〕━━━╮
+┃ ✦ ${usedPrefix}sticker <img>
+┃ ✦ ${usedPrefix}brat <texto>
+╰━━━━━━━━━━━━━━━━━━━━━━╯
 
-┏━━ 『 *☆ ՏTIᑕKᗴᖇ ☆* 』 ❃
-┃❒  ${usedPrefix}sᴛɪᴄᴋᴇʀ <img>
-┃❒  ${usedPrefix}ʙʀᴀᴛ *<texto>*
-┗━━━━━━━━━━━━━━━━━⪩
+╭━━━〔 🧰 HERRAMIENTAS 〕━━━╮
+┃ ✦ ${usedPrefix}iqc <texto>
+┃ ✦ ${usedPrefix}rvocal <audio>
+┃ ✦ ${usedPrefix}tourl2
+┃ ✦ ${usedPrefix}hd
+┃ ✦ ${usedPrefix}tourl <imagen>
+╰━━━━━━━━━━━━━━━━━━━━━━╯
 
-┏━━ 『 *☆ TOOᒪՏ ☆* 』 ❃
-┃❒  ${usedPrefix}ɪǫᴄ <texto>
-┃❒  ${usedPrefix}ʀᴠᴏᴄᴀʟ <audio>
-┃❒  ${usedPrefix}ᴛᴏᴜʀʟ2
-┃❒  ${usedPrefix}ʜᴅ
-┃❒  ${usedPrefix}ᴛᴏᴜʀʟ <imagen>
-┗━━━━━━━━━━━━━━━━━⪩
+╭━━━〔 💖 FINAL 〕━━━╮
+┃ ✦ Gracias por usar *Roxy MD Bot*
+╰━━━━━━━━━━━━━━━━━━━━━━╯
 `.trim()
 
     const menu = `${header}\n${body}`
