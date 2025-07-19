@@ -81,9 +81,9 @@ global.user2 = m.pushName || 'Anónimo';
 global.verifyaleatorio = ['registrar', 'reg', 'verificar', 'verify', 'register'].getRandom();
 
 // ᗴᑎᒪᗩᑕᗴՏ ᘜᒪOᗷᗩᒪ
-var canal = 'https://whatsapp.com/channel/0029VajUPbECxoB0cYovo60W'  
-let canal2 = 'https://whatsapp.com/channel/0029VajUPbECxoB0cYovo60W'
-var git = 'https://github.com/El-brayan502'
+var canal = 'https://whatsapp.com/channel/0029VbBBn9R4NViep4KwCT3Z'  
+let canal2 = 'https://whatsapp.com/channel/0029VbBBn9R4NViep4KwCT3Z'
+var git = 'https://github.com/erenxzy'
 var github = 'https://github.com/El-brayan502/Roxy-MD--Multi-Device' 
 
 global.redes = [canal, canal2, git, github].getRandom()
@@ -123,8 +123,8 @@ global.icono = [
 'https://files.catbox.moe/ja853f.jpg',
 'https://files.catbox.moe/fcnuso.jpg',
 'https://files.catbox.moe/8461tw.jpg',
-'ht'
-].getRandom
+'https://files.catbox.moe/8461tw.jpg'
+].getRandom()
 global.rcanal = { contextInfo: { isForwarded: true, forwardedNewsletterMessageInfo: { /*newsletterJid: channelRD.id,*/ serverMessageId: 100, /*newsletterName: channelRD.name,*/ }, externalAdReply: { showAdAttribution: true, title: textbot, body: dev, mediaUrl: null, description: null, previewType: "PHOTO", thumbnailUrl: icono, sourceUrl: redes, mediaType: 1, renderLargerThumbnail: false }, }, }}
 
 
