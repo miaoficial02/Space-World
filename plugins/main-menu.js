@@ -144,6 +144,9 @@ let handler = async (m, { conn, usedPrefix, __dirname, participants }) => {
             serverMessageId: -1
           },
 
+          externalAdReply: {
+            title: 'ᰔᩚ𝑭𝒆𝒏𝒓𝒚𝒔𝑩𝒐𝒕ᰔᩚ',
+
     const menu = `${header}\n${body}`
 
     await conn.sendMessage(m.chat, {
