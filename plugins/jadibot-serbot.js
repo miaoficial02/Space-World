@@ -17,9 +17,8 @@ let crm3 = "SBpbmZvLWRvbmFyLmpz"
 let crm4 = "IF9hdXRvcmVzcG9uZGVyLmpzIGluZm8tYm90Lmpz"
 let drm1 = ""
 let drm2 = ""
-let rtx2 = "* ↫ 🚀 𝙁𝙀𝙉𝙍𝙔𝙎 𝘾𝙊𝙉𝙀𝙓𝙄𝙊𝙉 🚀 ↬ *\n\n✐ Cσɳҽxισɳ SυႦ-Bσƚ Mσԃҽ Cσԃҽ\n\n✦ Usa este Código para convertirte en un *Sub-Bot* Temporal.\n\n\`1\` ➣ Haga clic en los tres puntos en la esquina superior derecha\n\n\`2\` ➣ Toque dispositivos vinculados\n\n\`3\` ➣ Selecciona Vincular con el número de teléfono\n\n\`4\` ➣ Escriba el Código para iniciar sesion con el bot\n\n✧ No es recomendable usar tu cuenta principal."
-let rtx2 = " ↫ 🔰 𝙁𝙀𝙉𝙍𝙔𝙎 𝘾𝙊𝙉𝙀𝙓𝙄𝙊𝙉 🔰 ↬ *\n\n✦ Cσɳҽxισɳ SυႦ-Bσƚ Mσԃҽ Cσԃҽ\n\n✦ Usa este Código para convertirte en un *Sub-Bot* Temporal.\n\n\`1\` ➣ Haga clic en los tres puntos en la esquina superior derecha\n\n\`2\` ➣ Toque dispositivos vinculados\n\n\`3\` ➣ Selecciona Vincular con el número de teléfono\n\n\`4\` ➣ Escriba el Código para iniciar sesion con el bot\n\n✧ No es recomendable usar tu cuenta principal."
-
+let rtx = "𝑬𝒏𝒗𝒊𝒂𝒏𝒅𝒐 𝑻𝒖 𝑪𝒐𝒅𝒊𝒈𝒐...\n𝑼𝒏𝒆𝒕𝒆 𝑨𝒍 𝑪𝒂𝒏𝒂𝒍 𝑫𝒆 𝑳𝒂 𝑩𝒐𝒕 𝑷𝒂𝒓𝒂 𝑺𝒂𝒃𝒆𝒓 𝑴𝒂𝒔 𝑫𝒆 𝑬𝒍𝒍𝒂\nhttps://whatsapp.com/channel/0029VbBBn9R4NViep4KwCT3Z"
+let rtx2 = "𝑬𝒏𝒗𝒊𝒂𝒏𝒅𝒐 𝑻𝒖 𝑪𝒐𝒅𝒊𝒈𝒐...\n𝑼𝒏𝒆𝒕𝒆 𝑨𝒍 𝑪𝒂𝒏𝒂𝒍 𝑫𝒆 𝑳𝒂 𝑩𝒐𝒕 𝑷𝒂𝒓𝒂 𝑺𝒂𝒃𝒆𝒓 𝑴𝒂𝒔 𝑫𝒆 𝑬𝒍𝒍𝒂\nhttps://whatsapp.com/channel/0029VbBBn9R4NViep4KwCT3Z"
 const __filename = fileURLToPath(import.meta.url)
 const __dirname = path.dirname(__filename)
 const blackJBOptions = {}
