@@ -18,7 +18,6 @@ let handler = async (m, { conn, usedPrefix, __dirname, participants }) => {
     let perfil = await conn.profilePictureUrl(conn.user.jid, 'image')
       .catch(() => 'https://files.catbox.moe/9i5o9z.jpg')
 
-    // Preparar el tag del usuario
     const userId = m.sender.split('@')[0]
     let taguser = `@${userId}`
     let phone = PhoneNumber('+' + userId)
@@ -37,26 +36,7 @@ let handler = async (m, { conn, usedPrefix, __dirname, participants }) => {
       `╚═━★•°*"'*°•★━═╝`
     ].join('\n')
 
-    const user = global.db.data.users[m.sender] || {};
-    const country = user.country || '';
-    const isPremium = user.premium || false;
-
-
-    const channelRD = { 
-      id: '120363417252896376@newsletter', 
-      name: 'Oficial channel Roxy-MD'
-    }
-
-
-contextInfo: {
-  mentionedJid: [m.sender],
-  isForwarded: true,
-  forwardedNewsletterMessageInfo: {
-    newsletterJid: channelRD.id,
-    serverMessageId: 100,
-    newsletterName: channelRD.name
-  }
-}
+    const user = global.db.data.users[m.sender] || {}
 
     const body = `
 ╭───❀˚･ﾟ✧ ʀᴏxʏ ᴍᴅ ᴍᴇɴú ✧ﾟ･˚❀───╮
@@ -104,20 +84,12 @@ contextInfo: {
 ┃❒  ${usedPrefix}ʀᴇᴄʟᴀᴍᴀᴡᴀɪғᴜ
 ┗━━━━━━━━━━━━━━━━━⪩
 
-
 ┏━━ 『 *☆ ᗪᗴՏᑕᗩᖇᘜáՏ ☆* 』 ❃
 ┃❒  ${usedPrefix}ᴛɪᴋᴛᴏᴋ
 ┃❒  ${usedPrefix}ᴘʟᴀʏ
 ┃❒  ${usedPrefix}ᴘɪɴᴅʟ <link>
 ┃❒  ${usedPrefix}ɪɴsᴛᴀɢʀᴀᴍ <link>
 ┃❒  ${usedPrefix}ꜰᴀᴄᴇʙᴏᴏᴋ <link>
-┗━━━━━━━━━━━━━━━━━⪩
-
-┏━━ 『 *☆ ᗷᑌՏᑫᑌᗴᗪᗩՏ ☆* 』 ❃
-┃❒  ${usedPrefix}ᴀᴘᴛᴏɪᴅᴇ<texto>
-┃❒  ${usedPrefix}ᴛɪᴋᴛᴏᴋsᴇᴀʀᴄʜ
-┃❒  ${usedPrefix}sꜱᴡᴇʙ
-┃❒  ${usedPrefix}sᴘᴏᴛɪꜰʏ
 ┗━━━━━━━━━━━━━━━━━⪩
 
 ┏━━ 『 *☆ ᘜᖇᑌᑭO ☆* 』 ❃
@@ -136,16 +108,6 @@ contextInfo: {
 ┃❒  ${usedPrefix}ᴘᴏʟʟɪɴᴀᴛɪᴏɴs <texto>
 ┃❒  ${usedPrefix}ɢᴇᴍɪɴɪ
 ┃❒  ${usedPrefix}ʙɢʀᴇᴍᴏᴠᴇʀ <imagen>
-┗━━━━━━━━━━━━━━━━━⪩
-
-┏━━ 『 *☆ IᑎTᗴᖇᑎᗴT☆* 』 ❃
-┃❒  ${usedPrefix}ɴɪᴍᴇɢᴀᴍᴇsᴇᴀʀᴄʜ
-┃❒  ${usedPrefix}ᴍᴇɪᴏ
-┗━━━━━━━━━━━━━━━━━⪩
-
-┏━━ 『 *☆ ᒍᗩᗪIᗷOT ☆* 』 ❃
-┃❒  ${usedPrefix}ʙᴏᴛs
-┃❒  ${usedPrefix}ᴄᴏᴅᴇ
 ┗━━━━━━━━━━━━━━━━━⪩
 
 ┏━━ 『 *☆ Oᗯᑎᗴᖇ ☆* 』 ❃
@@ -168,37 +130,27 @@ contextInfo: {
 ┗━━━━━━━━━━━━━━━━━⪩
 `.trim()
 
-    // Unir header + body
     const menu = `${header}\n${body}`
-
-    // Configurar datos para el mensaje
-    const botname = '🌸◌*̥₊ Rᴏxʏ-Mᴅ ◌❐🎋༉'
-    const textbot = '💖 𝙍𝙊𝙓𝙔 𝘽𝙔 𝘿𝙀𝙑 𝘽𝙍𝘼𝙔𝘼𝙉 ✨️'
-    const banner = perfil
-    const redes = 'https://whatsapp.com/channel/0029VajUPbECxoB0cYovo60W'
 
     await conn.sendMessage(m.chat, {
       video: { url: videoUrl },
-      caption: body,
+      caption: menu,
       gifPlayback: true,
-      mentions: [m.sender],  // Agregamos el array de menciones
-      ...metaMsg
+      mentions: [m.sender]
     })
 
   } catch (e) {
     console.error(e)
-    await conn.sendMessage(m.chat, { 
+    await conn.sendMessage(m.chat, {
       text: `✘ Error al enviar el menú: ${e.message}`,
-      mentions: [m.sender]  // También incluimos menciones en el mensaje de error
-    }, { 
-      quoted: metaMsg 
+      mentions: [m.sender]
     })
   }
 }
 
 handler.help = ['menu']
 handler.tags = ['main']
-handler.command = ['menu','help','menú','allmenu','menucompleto']
+handler.command = ['menu', 'help', 'menú', 'allmenu', 'menucompleto']
 handler.register = true
 export default handler
 
