@@ -17,8 +17,8 @@ let crm3 = "SBpbmZvLWRvbmFyLmpz"
 let crm4 = "IF9hdXRvcmVzcG9uZGVyLmpzIGluZm8tYm90Lmpz"
 let drm1 = ""
 let drm2 = ""
-let rtx = "𝗘𝗻𝘃𝗶𝗮𝗻𝗱𝗼 𝗲𝗹 𝗰𝗼𝗱𝗲 𝗱𝗲 𝘃𝗶𝗻𝗰𝘂𝗹𝗮𝘃𝗶𝗼𝗻\n𝗦𝗶𝗴𝘂𝗲 𝗲𝗹 𝗰𝗮𝗻𝗮𝗹 𝗽𝗮𝗿𝗮 𝘀𝗮𝗯𝗲𝗿 𝗺𝗮𝘀 𝗱𝗲 𝗯𝗼𝘁\nhttps://whatsapp.com/channel/0029VajUPbECxoB0cYovo60W"
-let rtx2 = "𝗘𝗻𝘃𝗶𝗮𝗻𝗱𝗼 𝗲𝗹 𝗰𝗼𝗱𝗲 𝗱𝗲 𝘃𝗶𝗻𝗰𝘂𝗹𝗮𝘃𝗶𝗼𝗻\n𝗦𝗶𝗴𝘂𝗲 𝗲𝗹 𝗰𝗮𝗻𝗮𝗹 𝗽𝗮𝗿𝗮 𝘀𝗮𝗯𝗲𝗿 𝗺𝗮𝘀 𝗱𝗲 𝗯𝗼𝘁\nhttps://whatsapp.com/channel/0029VajUPbECxoB0cYovo60W"
+let rtx2 = "* ↫ 🚀 𝙁𝙀𝙉𝙍𝙔𝙎 𝘾𝙊𝙉𝙀𝙓𝙄𝙊𝙉 🚀 ↬ *\n\n✐ Cσɳҽxισɳ SυႦ-Bσƚ Mσԃҽ Cσԃҽ\n\n✦ Usa este Código para convertirte en un *Sub-Bot* Temporal.\n\n\`1\` ➣ Haga clic en los tres puntos en la esquina superior derecha\n\n\`2\` ➣ Toque dispositivos vinculados\n\n\`3\` ➣ Selecciona Vincular con el número de teléfono\n\n\`4\` ➣ Escriba el Código para iniciar sesion con el bot\n\n✧ No es recomendable usar tu cuenta principal."
+let rtx2 = " ↫ 🔰 𝙁𝙀𝙉𝙍𝙔𝙎 𝘾𝙊𝙉𝙀𝙓𝙄𝙊𝙉 🔰 ↬ *\n\n✦ Cσɳҽxισɳ SυႦ-Bσƚ Mσԃҽ Cσԃҽ\n\n✦ Usa este Código para convertirte en un *Sub-Bot* Temporal.\n\n\`1\` ➣ Haga clic en los tres puntos en la esquina superior derecha\n\n\`2\` ➣ Toque dispositivos vinculados\n\n\`3\` ➣ Selecciona Vincular con el número de teléfono\n\n\`4\` ➣ Escriba el Código para iniciar sesion con el bot\n\n✧ No es recomendable usar tu cuenta principal."
 
 const __filename = fileURLToPath(import.meta.url)
 const __dirname = path.dirname(__filename)
