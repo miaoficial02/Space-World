@@ -48,7 +48,15 @@ let handler = async (m, { conn, usedPrefix, __dirname, participants }) => {
     }
 
 
-   
+contextInfo: {
+  mentionedJid: [m.sender],
+  isForwarded: true,
+  forwardedNewsletterMessageInfo: {
+    newsletterJid: channelRD.id,
+    serverMessageId: 100,
+    newsletterName: channelRD.name
+  }
+}
 
     const body = `
 ╭───❀˚･ﾟ✧ ʀᴏxʏ ᴍᴅ ᴍᴇɴú ✧ﾟ･˚❀───╮
@@ -168,7 +176,7 @@ let handler = async (m, { conn, usedPrefix, __dirname, participants }) => {
     const textbot = '💖 𝙍𝙊𝙓𝙔 𝘽𝙔 𝘿𝙀𝙑 𝘽𝙍𝘼𝙔𝘼𝙉 ✨️'
     const banner = perfil
     const redes = 'https://whatsapp.com/channel/0029VajUPbECxoB0cYovo60W'
-    
+
     await conn.sendMessage(m.chat, {
       video: { url: videoUrl },
       caption: body,
