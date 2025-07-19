@@ -18,12 +18,8 @@ global.owner = [
 //['numero', 'nombre', true],
 ];
 
-
 // <-- Número @lid -->
   ['1920437612698@lid', '', true],
-  ['', '', true],
-  ['', '', true],
-];
 
 //✎﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏
 
