@@ -3,7 +3,7 @@ var handler = async (m, { conn, participants, usedPrefix, command }) => {
     const sadchu = '✿︎';
 
     if (!m.mentionedJid[0] && !m.quoted) {
-        return conn.reply(m.chat, `${pikachu} ¡Pika Pika! Debes mencionar a alguien para expulsarlo del grupo.`, m, rcanal);
+        return conn.reply(m.chat, `${pikachu} ¡! Debes mencionar a alguien para expulsarlo del grupo.`, m, rcanal);
     }
 
     let user = m.mentionedJid[0] ? m.mentionedJid[0] : m.quoted.sender;
