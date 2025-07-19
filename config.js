@@ -11,10 +11,10 @@ import moment from 'moment-timezone'
 
 // ᑕOᒪᗩᗷOᖇᗩᗪOᖇᗴՏ Y ᑕᖇᗴáᗪOᖇ 🌸
 global.owner = [
-['50231458537', '🐔 Creador Batman', true],
+['18493907272', '𝑪𝒓𝒆𝒂𝒅𝒐𝒓 𝑭𝒆𝒏𝒓𝒚𝒔𝑩𝒐𝒕', true],
 ['573001533523', 'BʀᴀʏᴀɴXD', true],
 ['50489513153', 'HN Cʜᴏʟɪᴛᴏ', true],
-['573133374132', 'Yᴏ Sᴏʏ Yᴏ', true],
+['', 'Yᴏ Sᴏʏ Yᴏ', true],
 //['numero', 'nombre', true],
 ];
 
@@ -29,8 +29,8 @@ global.prems = [];
 
 // IᑎᖴOᖇᗰᗩᑕIOᑎ ՏOᗷᖇᗴ ᒪᗩ ᗷOT 🍁
 global.libreria = 'Baileys';
-global.nameqr = 'RoxyBot';
-global.namebot = 'RoxyBot';
+global.nameqr = 'FenrysBot';
+global.namebot = 'FenrysBot';
 global.sessions = 'Sessions';
 global.jadi = 'JadiBots';
 global.roxyJadibts = true;
@@ -38,12 +38,12 @@ global.roxyJadibts = true;
 //✎﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏
 
 // ᗰᗩᖇᑕᗩ ᗪᗴ ᗩᘜᑌᗩ 🗞️
-global.packname = '𝗥𝗼𝘅𝘆-𝗠𝗗 (𝗠𝘂𝗹𝘁𝗶-𝗗𝗲𝘃𝗶𝗰𝗲)';
-global.botname = '🌸◌*̥₊ Rᴏxʏ-Mᴅ ◌❐🎋༉';
-global.wm = '🌸◌*̥₊ Tʜᴇ Rᴏxʏ-Bᴏᴛ ◌❐🎋༉';
-global.dev = '❁ཻུ۪۪ ⎧ ୧ㅤ 𝘉𝘳𝘢𝘺𝘢𝘯ㅤ🎋⋅ ..⃗.';
-global.textbot = 'Rᴏxʏ-Mᴅ Bʏ BʀᴀʏᴀɴXᴅ';
-global.etiqueta = 'Rᴏxʏ-Mᴅ Wʜᴀᴛsᴀᴀᴘ Bᴏᴛ';
+global.packname = '𝐅𝐞𝐧𝐫𝐲𝐬𝐁𝐨𝐭–(𝐌𝐮𝐥𝐭𝐢 𝐃𝐞𝐯𝐢𝐜𝐞)';
+global.botname = 'ᰔᩚ𝑭𝒆𝒏𝒓𝒚𝒔𝑩𝒐𝒕-𝑴𝑫ᰔᩚ';
+global.wm = 'ᰔᩚ𝑭𝒆𝒏𝒓𝒚𝒔𝑩𝒐𝒕-𝑴𝒖𝒍𝒕𝒊 𝑫𝒆𝒗𝒊𝒄𝒆ᰔᩚ';
+global.dev = 'ᰔᩚ𝑩𝒚 𝑷𝒓𝒐𝒚𝒆𝒄𝒕 𝑭𝒆𝒏𝒓𝒚𝒔𝑩𝒐𝒕ᰔᩚ';
+global.textbot = 'FᴇɴʀʏsBᴏᴛ-Mᴅ ᴡᴀ ʙᴏᴛ';
+global.etiqueta = 'FᴇɴʀʏsBᴏᴛ-Mᴅ ᴡᴀ ʙᴏᴛ';
 
 //✎﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏
 
@@ -52,9 +52,9 @@ global.moneda = 'dolares';
 
 //✎﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏
 
-global.namabot = '⫹⫺  ᴍᴅ'
+global.namabot = '✦ ᴍᴅ'
 global.v = '-'   
-global.eror = "_ubo un error _"
+global.eror = "ubo un error "
 global.lopr = "🅟"
 global.lolm = "Ⓛ"
 global.dmenut = "✦ ───『"
@@ -93,7 +93,7 @@ global.cn ='https://whatsapp.com/channel/0029VawF8fBBvvsktcInIz3m';
 global.catalogo = fs.readFileSync('./src/catalogo.jpg');
 global.estilo = { key: {  fromMe: false, participant: `0@s.whatsapp.net`, ...(false ? { remoteJid: "5219992095479-1625305606@g.us" } : {}) }, message: { orderMessage: { itemCount : -999999, status: 1, surface : 1, message: packname, orderTitle: 'Bang', thumbnail: catalogo, sellerJid: '0@s.whatsapp.net'}}}
 global.ch = {
-ch1: '120363312092804854@newsletter',
+ch1: '120363417252896376@newsletter',
 }
 
 //✎﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏
