@@ -14,16 +14,16 @@ let handler = async (m, { conn }) => {
 
   const owners = [
     {
-      name: 'DevBrayan',
-      desc: 'Creador Principal de NagiBotV3',
-      image: 'https://files.cloudkuimages.guru/images/fJk8xWXl.jpg',
+      name: 'DevErenxsy',
+      desc: 'Creador De GonBot 💚',
+      image: 'https://files.catbox.moe/v2w0qd.jpg',
       buttons: [
-        { name: 'WhatsApp', url: 'https://wa.me/50231458537' },
-        { name: 'Instagram', url: 'https://www.instagram.com/elbrayan502ff' },
-        { name: 'Facebook', url: 'https://www.facebook.com/profile.php?id=61556686993783' },
-        { name: 'Telegram', url: 'https://t.me/DevBrayan' },
-        { name: 'TikTok', url: 'https://www.tiktok.com/@fantom_uwu_330' },
-        { name: 'PayPal', url: 'https://paypal.me/BrayanMoscoso' }
+        { name: 'WhatsApp', url: 'https://wa.me/18493907272' },
+        { name: 'Instagram', url: 'https://www.instagram.com/xsdani_16' },
+        { name: 'Facebook', url: 'https://www.facebook.com/share/18vWtmckN3/' },
+        { name: 'Telegram', url: 'https://t.me/erenxszy01' },
+        { name: 'TikTok', url: 'https://www.tiktok.com/@zxydaa16' },
+        { name: 'PayPal', url: 'https://paypal.me/Erenxs01' }
       ]
     },
     {
@@ -32,8 +32,8 @@ let handler = async (m, { conn }) => {
       image: 'https://files.cloudkuimages.guru/images/MLrB6aiO.jpg',
       buttons: [
         { name: 'WhatsApp', url: 'https://wa.me/573001533523' },
-        { name: 'Instagram', url: 'https://www.instagram.com/elbrayan502ff' },
-        { name: 'TikTok', url: 'https://www.tiktok.com/@fantom_uwu_330' },
+        { name: 'Instagram', url: '' },
+        { name: 'TikTok', url: '' },
         { name: 'PayPal', url: 'https://paypal.me/davidryze' }
       ]
     }
