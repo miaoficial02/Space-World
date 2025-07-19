@@ -18,17 +18,17 @@ let handler = async (m, { conn }) => {
   user.money = 0
 
   // Imagen de perfil
-  let pp = 'https://files.catbox.moe/3ee3ib.jpg'
+  let pp = 'https://files.catbox.moe/mihz6s.jpg'
   try {
     pp = await conn.profilePictureUrl(m.sender, 'image')
   } catch (e) {}
 
   await conn.sendMessage(m.chat, {
-    text: `🗑️ *Tu registro fue eliminado correctamente*\n\n👤 Nombre anterior: *${nombre}*\n🎂 Edad: *${edad} años*\n👋 Esperamos verte de nuevo.\n\nEscribe *.reg Nombre Edad* para registrarte otra vez.`,
+    text: `✦ *Tu registro fue eliminado correctamente*\n\n👤 Nombre anterior: *${nombre}*\n✎ Edad: *${edad} años*\nᰔᩚ Esperamos verte de nuevo.\n\nEscribe *.reg Nombre Edad* para registrarte otra vez.`,
     mentions: [m.sender],
     contextInfo: {
       externalAdReply: {
-        title: `Registro eliminado correctamente 🗑️`,
+        title: `Registro eliminado correctamente ✦`,
         body: `Nombre: ${nombre} • Edad: ${edad} años`,
         thumbnailUrl: pp,
         mediaType: 1,
