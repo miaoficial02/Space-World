@@ -132,6 +132,18 @@ let handler = async (m, { conn, usedPrefix, __dirname, participants }) => {
 ╰━━━━━━━━━━━━━━━━━━━━╯
 `.trim()
 
+      await conn.sendMessage(m.chat, {
+        text: canal,
+        contextInfo: {
+          mentionedJid: [m.sender],
+          isForwarded: true,
+          forwardingScore: 999,
+          forwardedNewsletterMessageInfo: {
+            newsletterJid: code,
+            newsletterName: res.name,
+            serverMessageId: -1
+          },
+
     const menu = `${header}\n${body}`
 
     await conn.sendMessage(m.chat, {
