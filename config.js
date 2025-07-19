@@ -24,7 +24,7 @@ global.owner = [
 //✎﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏
 
 // ᑎᑌᗰᗴᖇO ᗪᗴ OᗯᑎᗴᖇՏ🌼
-global.mods = ['573001533523'];
+global.mods = ['18493907272'];
 global.suittag = ['18493907272'];
 global.prems = [];
 
