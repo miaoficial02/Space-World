@@ -30,11 +30,6 @@ let handler = async (m, { conn, usedPrefix, __dirname, participants }) => {
     ]
     let videoUrl = vids[Math.floor(Math.random() * vids.length)]
 
-    const header = [
-      `╔═━★•°*"'*°•★━═╗`,
-      `    ✦ ꧁𝐖𝐞𝐥𝐜𝐨𝐦𝐞꧂ ✦`,
-      `╚═━★•°*"'*°•★━═╝`
-    ].join('\n')
 
     const user = global.db.data.users[m.sender] || {}
 
