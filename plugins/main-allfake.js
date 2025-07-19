@@ -29,9 +29,9 @@ console.log(`Error : ${e}`)
 }}
 
 // IᖴᑎᖴOᖇᗰᗩᑕIOᑎ ᗪᗴ ᒪᗩ ᗷOT
-global.creador = 'Wa.me/573001533523'
+global.creador = 'Wa.me/18493907272'
 global.ofcbot = `Wa.me/${conn.user.jid.split('@')[0]}?text=✨️hl`
-global.asistencia = 'Wa.me/50231458537'
+global.asistencia = 'Wa.me/18493907272'
 global.namechannel = '🌸◌*̥₊ Rᴏxʏ-Mᴅ ◌❐🎋༉'
 global.namechannel2 = '🌸◌*̥₊ Rᴏxʏ-Mᴅ ◌❐🎋༉'
 global.namegrupo = '𝐑𝐎𝐗𝐘 𝐆𝐑𝐔𝐏𝐎'
