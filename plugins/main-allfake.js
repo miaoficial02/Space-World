@@ -40,8 +40,8 @@ global.listo = '𝑳𝑰𝑺𝑻𝑶/𝑨 𝑮𝑹𝑨𝑪𝑰𝑨 𝑷𝑶𝑹 
 global.fotoperfil = await conn.profilePictureUrl(m.sender, 'image').catch(_ => catalogo,)
 
 // ᑕᗩᑎᗩᒪ ᗪᗴ ᒪᗩ ᗷOT
-global.idchannel = '120363312092804854@newsletter'
-global.canalIdM = ["120363312092804854@newsletter", "120363312092804854@newsletter"]
+global.idchannel = '120363417252896376@newsletter'
+global.canalIdM = ["120363417252896376@newsletter", "120363417252896376@newsletter"]
 global.canalNombreM = ["𝑭𝑬𝑵𝑹𝒀𝑺–𝑩𝑶𝑻🌸✨", "ᰔᩚ𝑭𝑬𝑵𝑹𝒀𝑺–𝑼𝑷𝑫𝑨𝑻𝑬ᰔᩚ"]
 global.channelRD = await getRandomChannel()
 
