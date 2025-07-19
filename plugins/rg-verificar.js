@@ -20,7 +20,7 @@ const handler = async (m, { text, command, conn }) => {
   data.regTime = Date.now()
 
   // Enviar mensaje de confirmación tipo "ver canal"
-  const mensaje = `✅ *REGISTRO EXITOSO, MAESTRO*\n\n👤 *Nombre:* ${nombre}\n🎂 *Edad:* ${edad} años\n📆 *Registrado el:* ${fecha}\n\n🎖️ *Ya puedes usar los comandos premium.*`
+  const mensaje = `✅ *REGISTRO EXITOSO, MAESTRO*\n\n👤 *Nombre:* ${nombre}\n✦ *Edad:* ${edad} años\n📆 *Registrado el:* ${fecha}\n\n✎ *Ya puedes usar los comandos premium.* > usa .menú para ver la lista de comando ᰔᩚ`
 
   return conn.reply(m.chat, mensaje, m, {
     contextInfo: {
@@ -28,7 +28,7 @@ const handler = async (m, { text, command, conn }) => {
         title: '✅ Registro Completado',
         body: 'Ahora puedes usar todos los comandos',
         mediaType: 1,
-        thumbnailUrl: 'https://files.cloudkuimages.guru/images/1P0pUB7c.jpg',
+        thumbnailUrl: 'https://files.catbox.moe/et599q.jpg',
         renderLargerThumbnail: true,
         sourceUrl: 'https://github.com/El-brayan502/Roxy-MD--Multi-Device'
       }
