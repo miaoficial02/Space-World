@@ -17,7 +17,7 @@ let handler = async (m, { conn }) => {
       name: 'DevErenxsy',
       desc: 'Creador De GonBot 💚',
       image: 'https://files.catbox.moe/v2w0qd.jpg',
-      buttons: [
+      buttons: 
         { name: 'WhatsApp', url: 'https://wa.me/18493907272' },
         { name: 'Instagram', url: 'https://www.instagram.com/xsdani_16' },
         { name: 'TikTok', url: 'https://www.tiktok.com/@zxydaa16' },
@@ -25,17 +25,7 @@ let handler = async (m, { conn }) => {
       ]
     },
     {
-      name: 'DavBrayan2',
-      desc: 'Co-Creador de Roxy-MD',
-      image: 'https://files.cloudkuimages.guru/images/MLrB6aiO.jpg',
-      buttons: [
-        { name: 'WhatsApp', url: 'https://wa.me/573001533523' },
-        { name: 'Instagram', url: '' },
-        { name: 'TikTok', url: '' },
-        { name: 'PayPal', url: 'https://paypal.me/davidryze' }
-      ]
-    }
-  ]
+  
 
   let cards = []
 
