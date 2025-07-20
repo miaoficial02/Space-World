@@ -4,6 +4,8 @@
 export async function before(m, { conn }) {
   if (!m.isGroup || !m.messageStubType || !m.messageStubParameters) return;
 
+  const who = m.messageStubParameters?.[0];
+  if (!who) return;
   const groupMetadata = await conn.groupMetadata(m.chat);
   const participants = m.messageStubParameters || [];
   const date = new Date();
@@ -20,7 +22,7 @@ export async function before(m, { conn }) {
     if (m.messageStubType === 27 || m.messageStubType === 31) {
       await conn.sendMessage(m.chat, {
         text: `➤ ¡Bienvenido ${taguser} al grupo *${groupMetadata.subject}*!\n\n✦ Nombre: *${name}*\n🆔 ID: ${user}\n📆 Fecha: ${fecha}\n\nPor favor, lee las reglas y disfruta tu estadía.`,
-        mentions: [user],
+        mentions: [who],
         contextInfo: {
           externalAdReply: {
             title: `𝑵𝑬𝑾 𝑴𝑬𝑴𝑩𝑬𝑹`,
@@ -38,7 +40,7 @@ export async function before(m, { conn }) {
     if (m.messageStubType === 28 || m.messageStubType === 32) {
       await conn.sendMessage(m.chat, {
         text: `➤ ${taguser} ha salido del grupo *${groupMetadata.subject}*.\n\n✦ Nombre: *${name}*\n🆔 ID: ${user}\n📆 Fecha: ${fecha}\n\n¡Buena suerte en tu camino!`,
-        mentions: [user],
+        mentions: [who],
         contextInfo: {
           externalAdReply: {
             title: `𝑩𝒀𝑬 𝑴𝑬𝑴𝑩𝑬𝑹`,
