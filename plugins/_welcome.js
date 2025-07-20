@@ -16,7 +16,7 @@ export async function before(m, { conn }) {
     let pp = await conn.profilePictureUrl(user, 'image').catch(() =>
       'https://files.catbox.moe/4hpk25.jpg'
     );
-    const taguser = '@' + user.split('@')[0];
+      const taguser = `@${who.split("@")[0]}`;
 
     // BIENVENIDA
     if (m.messageStubType === 27 || m.messageStubType === 31) {
