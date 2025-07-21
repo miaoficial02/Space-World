@@ -21,25 +21,29 @@ let staff = `𝑷𝑹𝑶𝒀𝑬𝑪𝑻𝑶 𝑭𝑬𝑵𝑹𝒀𝑺-𝑺𝑻�
 ✦ *Rol:* 𝑪𝒐𝒍𝒐𝒃𝒐𝒓𝒂𝒅𝒐𝒓 𝒙 𝑨𝒚𝒖𝒅𝒂𝒏𝒕𝒆 
 ➤ *Número:* Wa.me/50489513153
 ✦ *Github:* https://github.com/Elder504
-
 `
-await conn.sendFile(m.chat, icons, '', staff.trim(), fkontak, true, {
-contextInfo: {
-'forwardingScore': 200,
-'isForwarded': false,
-externalAdReply: {
-showAdAttribution: true,
-renderLargerThumbnail: false,
-title: `🌸𝑷𝑹𝑶𝒀𝑬𝑪𝑻𝑶 𝑭𝑬𝑵𝑹𝒀𝑺-𝑩𝑶𝑻🌸`,
-body: `👑𝑺𝑻𝑨𝑭𝑭-𝑶𝑭𝑰𝑪𝑰𝑨𝑳👑`,
-mediaType: 1,
-sourceUrl: redes,
-thumbnailUrl: icono
-}}
-}, { mentions: m.sender })
-m.react(emoji)
 
+await conn.sendMessage(m.chat, {
+  image: { url: 'https://cdn.russellxz.click/5d1db8f0.jpeg' }, // tu imagen desde URL
+  caption: staff.trim(),
+  contextInfo: {
+    forwardingScore: 200,
+    isForwarded: false,
+    externalAdReply: {
+      showAdAttribution: true,
+      renderLargerThumbnail: false,
+      title: `🌸𝑷𝑹𝑶𝒀𝑬𝑪𝑻𝑶 𝑭𝑬𝑵𝑹𝒀𝑺-𝑩𝑶𝑻🌸`,
+      body: `👑𝑺𝑻𝑨𝑭𝑭-𝑶𝑭𝑰𝑪𝑰𝑨𝑳👑`,
+      mediaType: 1,
+      sourceUrl: redes,
+      thumbnailUrl: icono
+    }
+  }
+}, { quoted: fkontak, mentions: [m.sender] })
+
+m.react(emoji)
 }
+
 handler.help = ['staff']
 handler.command = ['colaboradores', 'staff']
 handler.register = true
