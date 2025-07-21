@@ -20,13 +20,10 @@ let staff = `𝑷𝑹𝑶𝒀𝑬𝑪𝑻𝑶 𝑭𝑬𝑵𝑹𝒀𝑺-𝑺𝑻�
 • 𝑪𝑯𝑶𝑳𝑰𝑻𝑶-𝑿𝒁𝒀
 ✦ *Rol:* 𝑪𝒐𝒍𝒐𝒃𝒐𝒓𝒂𝒅𝒐𝒓 𝒙 𝑨𝒚𝒖𝒅𝒂𝒏𝒕𝒆 
 ➤ *Número:* Wa.me/50489513153
-✦ *Github:* ...
+✦ *Github:* https://github.com/Elder504
 
-• .....
-✦ *Rol:* Soporte 
-➤ *Número:* Wa.me/18493907272
 `
-await conn.sendFile(m.chat, icons, 'https://files.catbox.moe/90u9mx.jpg', staff.trim(), fkontak, true, {
+await conn.sendFile(m.chat, icons, '', staff.trim(), fkontak, true, {
 contextInfo: {
 'forwardingScore': 200,
 'isForwarded': false,
