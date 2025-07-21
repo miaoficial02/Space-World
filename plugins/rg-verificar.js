@@ -37,7 +37,7 @@ let handler = async function (m, { conn, text, args, usedPrefix, command }) {
     let moneda = '💸'
     let regbot = `
 ╭━━━━━━━━━━━━━━━━━━━━━━━╮
-│ ✅ 𝚁𝙴𝙶𝙸𝚂𝚃𝚁𝙾 𝙲𝙾𝙼𝙿𝙻𝙴𝚃𝙾 𝙴𝚇𝙸𝚃𝙾𝚂𝙾
+│ ✅ 𝙍𝙚𝙜𝙞𝙨𝙩𝙧𝙤 𝘾𝙤𝙢𝙥𝙡𝙚𝙩𝙖𝙙𝙤 ฅ^•ﻌ•^ฅ
 │
 │ ✎ 𝐍𝐨𝐦𝐛𝐫𝐞: ${name}
 │ ✎ 𝐄𝐝𝐚𝐝: ${age} años
@@ -52,10 +52,10 @@ let handler = async function (m, { conn, text, args, usedPrefix, command }) {
         text: regbot,
         contextInfo: {
             externalAdReply: {
-                title: '𝚁𝙴𝙶 𝙲𝙾𝙼𝙿𝙻𝙴𝚃𝙰𝙳𝙾 ✅',
+                title: 'ʙʏ ᴘʀᴏʏᴇᴄᴛ ғᴇɴʀʏs ꨄ︎',
                 thumbnailUrl: 'https://files.catbox.moe/j6ci3o.jpg',
                 mediaType: 1,
-                body: '𝙼𝚎𝚗𝚞 𝚍𝚒𝚜𝚙𝚘𝚗𝚒𝚋𝚕𝚎 𝚌𝚘𝚗 *.menu*',
+                body: '𝙼𝚎𝚗𝚞 𝚍𝚒𝚜𝚙𝚘𝚗𝚒𝚋𝚕𝚎 𝚌𝚘𝚗 .𝚖𝚎𝚗𝚞 ꨄ︎',
             }
         }
     }, { quoted: m });
