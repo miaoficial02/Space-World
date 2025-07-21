@@ -87,6 +87,7 @@ let handler = async (m, { conn, usedPrefix, __dirname, participants }) => {
 ┃ ✦ ${usedPrefix}pindl <link>
 ┃ ✦ ${usedPrefix}instagram <link>
 ┃ ✦ ${usedPrefix}facebook <link>
+┃ ✦ ${usedPrefix}Pinterest <busca img> 
 ╰━━━━━━━━━━━━━━━━━━━━━━╯
 
 ╭━━━〔 👥 𝗚𝗥𝗨𝗣𝗢𝗦 〕━━━╮
