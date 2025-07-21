@@ -44,11 +44,6 @@ let handler = async function (m, { conn, text, args, usedPrefix, command }) {
 │
 │ 🌸 ¡Gracias por registrarte!
 │ 📜 Usa *.menu* para ver comandos
-│
-│ 🎁 𝗥𝗲𝗰𝗼𝗺𝗽𝗲𝗻𝘀𝗮𝘀:
-│ ✦ ${moneda} » 600
-│ ✦ Experiencia » 245 🪙
-│ ✦ Tokens » 10 💸
 ╰━━━━━━━━━━━━━━━━━━━━━━━╯
 > 𝑮𝒓𝒂𝒄𝒊𝒂 𝑷𝒐𝒓 𝑼𝒔𝒂𝒓 𝑭𝒆𝒏𝒓𝒚𝒔𝑩𝒐𝒕ᰔᩚ
 `;
