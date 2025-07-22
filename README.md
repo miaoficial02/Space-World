@@ -87,7 +87,7 @@ npm start
 
 > Si aparece (Y/I/N/O/D/Z) [default=N] ? use la letra "y" + "ENTER" para continuar con la instalación
 
-<details>
+</details>
 
 ### **`𝑷𝑹𝑶𝑷𝑰𝑬𝑻𝑨𝑹𝑰𝑶`**
 <a
