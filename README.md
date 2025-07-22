@@ -86,3 +86,23 @@ npm start
 ```
 
 > Si aparece (Y/I/N/O/D/Z) [default=N] ? use la letra "y" + "ENTER" para continuar con la instalación
+
+
+
+### **`❀ Colaboradores`**
+<a href="https://github.com/The-King-Destroy/Yuki_Suou-Bot/graphs/contributors">
+<img src="https://contrib.rocks/image?repo=The-King-Destroy/Yuki_Suou-Bot" /> 
+</a>
+
+### **`ᥫ᭡ Propietario`**
+<a
+href="https://github.com/The-King-Destroy"><img src="https://github.com/The-King-Destroy.png" width="130" height="130" alt="
+ⁱᵃᵐ|𝔇ĕ𝐬†𝓻⊙γ𒆜"/></a>
+
+### **`🜸 Créditos`**
+<a href="https://github.com/DevAlexJs" style="display:inline-block; text-decoration: none;">
+    <img src="https://github.com/DevAlexJs.png" width="130" height="130" alt="Alex-X" style="border-radius: 50%;"/>
+</a>
+<a href="https://github.com/BrunoSobrino" style="display:inline-block; margin-right: 10px; text-decoration: none;">
+    <img src="https://github.com/BrunoSobrino.png" width="130" height="130" alt="Bruno Ofc" style="border-radius: 50%;"/>
+</a>
