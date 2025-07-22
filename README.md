@@ -89,12 +89,12 @@ npm start
 
 
 
-### **`ᥫ᭡ Propietario`**
+### **`ᰔᩚ 𝙋𝙍𝙊𝙋𝙄𝙀𝙏𝘼𝙍𝙄𝙊`**
 <a
-href="https://github.com/The-King-Destroy"><img src="https://github.com/The-King-Destroy.png" width="130" height="130" alt="
-ⁱᵃᵐ|𝔇ĕ𝐬†𝓻⊙γ𒆜"/></a>
+href="https://github.com/erenxzy"><img src="https://github.com/The-King-Destroy.png" width="130" height="130" alt="
+𝙀𝙧𝙚𝙣𝙭𝙯𝙮𝙈𝘿𝙁"/></a>
 
-### **`🜸 Créditos`**
+### **`⚒︎ 𝘾𝙊𝙇𝙊𝘽𝙊𝙍𝘼𝘿𝙊𝙍𝙀𝙎 `**
 <a href="https://github.com/DevAlexJs" style="display:inline-block; text-decoration: none;">
     <img src="https://github.com/DevAlexJs.png" width="130" height="130" alt="Alex-X" style="border-radius: 50%;"/>
 </a>
