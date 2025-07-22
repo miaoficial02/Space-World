@@ -32,7 +32,7 @@
 
  * 𝘾𝙖𝙣𝙖𝙡 𝙊𝙛𝙞𝙘𝙞𝙖𝙡  [`¡𝘾𝙇𝙄𝘾𝙆 𝘼𝙌𝙐𝙄!`](https://whatsapp.com/channel/0029VbBBn9R4NViep4KwCT3Z)
 * 𝙂𝙧𝙪𝙥𝙤 𝙊𝙛𝙞𝙘𝙞𝙖𝙡 [`¡𝘾𝙇𝙄𝘾𝙆 𝘼𝙌𝙐𝙄!`](https://chat.whatsapp.com/JyXYAWOtXWd0VGTOHbv8EO?mode=r_c)
-* 𝘾𝙤𝙢𝙪𝙣𝙞𝙙𝙖𝙙 𝙊𝙛𝙞𝙘𝙞𝙖𝙡 Oficial [`¡𝘾𝙇𝙄𝘾𝙆 𝘼𝙌𝙐𝙄!`](https://chat.whatsapp.com/GXwZX6U6f6OIxthaE4kF37?mode=r_c)
+* 𝘾𝙤𝙢𝙪𝙣𝙞𝙙𝙖𝙙 𝙊𝙛𝙞𝙘𝙞𝙖𝙡 [`¡𝘾𝙇𝙄𝘾𝙆 𝘼𝙌𝙐𝙄!`](https://chat.whatsapp.com/GXwZX6U6f6OIxthaE4kF37?mode=r_c)
 </details>
 
 <details>
