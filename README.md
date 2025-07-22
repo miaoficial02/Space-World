@@ -25,21 +25,22 @@
 
 ---
 
-### **`➮ Enlaces útiles`**
+### **`➪ 𝙇𝙄𝙉𝙆 𝙐𝙏𝙄𝙇𝙀𝙎`**
 
 <details>
- <summary><b> 🜸 Enlaces Oficiales </b></summary>
+ <summary><b> ✦ 𝙇𝙄𝙉𝙆 𝙊𝙁𝙄𝘾𝙄𝘼𝙇𝙀𝙎 ✦ </b></summary>
 
- * Canal Oficial  [`¡Click aquí!`](https://whatsapp.com/channel/0029VbAfPu9BqbrEMFWXKE0d)
-* Grupo Oficial [`¡Click aquí!`](https://chat.whatsapp.com/CDw7hpI30WjCyKFAVLHNhZ)
-* Comunidad Oficial [`¡Click aquí!`](https://chat.whatsapp.com/I0dMp2fEle7L6RaWBmwlAa)
+ * 𝘾𝙖𝙣𝙖𝙡 𝙊𝙛𝙞𝙘𝙞𝙖𝙡  [`¡𝘾𝙇𝙄𝘾𝙆 𝘼𝙌𝙐𝙄!`](https://whatsapp.com/channel/0029VbBBn9R4NViep4KwCT3Z)
+* 𝙂𝙧𝙪𝙥𝙤 𝙊𝙛𝙞𝙘𝙞𝙖𝙡 [`¡𝘾𝙇𝙄𝘾𝙆 𝘼𝙌𝙐𝙄!`](https://chat.whatsapp.com/JyXYAWOtXWd0VGTOHbv8EO?mode=r_c)
+* 𝘾𝙤𝙢𝙪𝙣𝙞𝙙𝙖𝙙 𝙊𝙛𝙞𝙘𝙞𝙖𝙡 Oficial [`¡𝘾𝙇𝙄𝘾𝙆 𝘼𝙌𝙐𝙄!`](https://chat.whatsapp.com/GXwZX6U6f6OIxthaE4kF37?mode=r_c)
 </details>
 
 <details>
-<summary><b> ✰ Contáctos</b></summary>
+<summary><b> ✦ 𝘾𝙊𝙉𝙏𝘼𝘾𝙏𝙊 𝙭 𝘼𝙎𝙎𝙄𝙏𝙀𝙉𝙏𝙀 ✦</b></summary>
 
-* WhatsApp: [`Aquí`](https:/Wa.me/5212202410659)
-* Correo: [`Aquí`](thekingdestroy507@gmail.com)
+* 𝘾𝙧𝙚𝙖𝙙𝙤𝙧/𝙣𝙤 𝙨𝙥𝙖𝙢: [`𝘼𝙌𝙐𝙄`](https:/Wa.me/18493907272)
+* 𝘾𝙊𝙍𝙍𝙀𝙊: [`𝘼𝙌𝙐𝙄`](erenxz01@gmail.com)
+* 𝘼𝙎𝙎𝙄𝙏𝙀𝙉𝙏𝙀: [`𝘼𝙌𝙐𝙄`](https:/Wa.me/+5493794278309)
 
 </details>
 
