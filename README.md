@@ -45,11 +45,6 @@
 </details>
 
 
-
-
-<a
-href="https://www.mediafire.com/file/3hsvi3xkpq3a64o/termux_118.a"><img src="https://qu.ax/finc.jpg" height="125px"></a>
-
 ## 📥 𝗜𝗡𝗦𝗧𝗔𝗟𝗔𝗖𝗜𝗢𝗡 𝗣𝗢𝗥 𝗧𝗘𝗥𝗠𝗨𝗫 𝗔𝗖𝗧𝗨𝗟𝗜𝗭𝗔𝗗𝗢 🛠️
 
 ```bash
