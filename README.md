@@ -66,7 +66,7 @@ apt update && apt upgrade && pkg install -y git nodejs ffmpeg imagemagick yarn
 ```
 
 ```bash
-git clone https://github.com/The-King-Destroy/Yuki_Suou-Bot && cd Yuki_Suou-Bot
+git clone https://github.com/erenxzy/FenrysBot-MD && cd FenrysBot-MD
 ```
 
 ```bash
