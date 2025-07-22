@@ -95,9 +95,9 @@ href="https://github.com/erenxzy"><img src="https://github.com/erenxzy.png" widt
 𝙀𝙧𝙚𝙣𝙭𝙯𝙮𝙈𝘿𝙁"/></a>
 
 ### **`⚒︎ 𝘾𝙊𝙇𝙊𝘽𝙊𝙍𝘼𝘿𝙊𝙍𝙀𝙎 `**
-<a href="https://github.com/DevAlexJs" style="display:inline-block; text-decoration: none;">
-    <img src="https://github.com/DevAlexJs.png" width="130" height="130" alt="Alex-X" style="border-radius: 50%;"/>
+<a href="https://github.com/Elder504" style="display:inline-block; text-decoration: none;">
+    <img src="https://github.com/Elder504.png" width="130" height="130" alt="Alex-X" style="border-radius: 50%;"/>
 </a>
-<a href="https://github.com/BrunoSobrino" style="display:inline-block; margin-right: 10px; text-decoration: none;">
-    <img src="https://github.com/BrunoSobrino.png" width="130" height="130" alt="Bruno Ofc" style="border-radius: 50%;"/>
+<a href="https://github.com/El-brayan502" style="display:inline-block; margin-right: 10px; text-decoration: none;">
+    <img src="https://github.com/El-brayan502.png" width="130" height="130" alt="Bruno Ofc" style="border-radius: 50%;"/>
 </a>
