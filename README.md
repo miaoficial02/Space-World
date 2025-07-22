@@ -95,15 +95,17 @@ href="https://github.com/erenxzy"><img src="https://github.com/erenxzy.png" widt
 𝙀𝙧𝙚𝙣𝙭𝙯𝙮𝙈𝘿𝙁"/></a>
 
 ### **`⚒︎ 𝘾𝙊𝙇𝙊𝘽𝙊𝙍𝘼𝘿𝙊𝙍𝙀𝙎 `**
-<a href="https://github.com/Elder504" style="display:inline-block; text-decoration: none;">
-    <img src="https://github.com/Elder504.png" width="130" height="130" alt="Alex-X" style="border-radius: 50%;"/>
-</a>
-<a href="https://github.com/El-brayan502" style="display:inline-block; margin-right: 10px; text-decoration: none;">
-    <img src="https://github.com/El-brayan502.png" width="130" height="130" alt="Bruno Ofc" style="border-radius: 50%;"/>
-</a>
-a href="https://github.com/kleiner1-1" style="display:inline-block; margin-right: 10px; text-decoration: none;">
-    <img src="https://github.com/kleiner1-1.png" width="130" height="130" alt="Bruno Ofc" style="border-radius: 50%;"/>
-</a>
-a href="https://github.com/Deylin-Eliac" style="display:inline-block; margin-right: 10px; text-decoration: none;">
-    <img src="https://github.com/Deylin-Eliac.png" width="130" height="130" alt="Bruno Ofc" style="border-radius: 50%;"/>
-</a>
+<div style="display: flex; gap: 10px;">
+  <a href="https://github.com/Elder504" style="text-decoration: none;">
+    <img src="https://github.com/Elder504.png" width="130" height="130" alt="Elder504" style="border-radius: 50%;" />
+  </a>
+  <a href="https://github.com/El-brayan502" style="text-decoration: none;">
+    <img src="https://github.com/El-brayan502.png" width="130" height="130" alt="El-brayan502" style="border-radius: 50%;" />
+  </a>
+  <a href="https://github.com/kleiner1-1" style="text-decoration: none;">
+    <img src="https://github.com/kleiner1-1.png" width="130" height="130" alt="kleiner1-1" style="border-radius: 50%;" />
+  </a>
+  <a href="https://github.com/Deylin-Eliac" style="text-decoration: none;">
+    <img src="https://github.com/Deylin-Eliac.png" width="130" height="130" alt="Deylin-Eliac" style="border-radius: 50%;" />
+  </a>
+</div>
