@@ -25,6 +25,25 @@
 
 ---
 
+### **`➮ Enlaces útiles`**
+
+<details>
+ <summary><b> 🜸 Enlaces Oficiales </b></summary>
+
+ * Canal Oficial  [`¡Click aquí!`](https://whatsapp.com/channel/0029VbAfPu9BqbrEMFWXKE0d)
+* Grupo Oficial [`¡Click aquí!`](https://chat.whatsapp.com/CDw7hpI30WjCyKFAVLHNhZ)
+* Comunidad Oficial [`¡Click aquí!`](https://chat.whatsapp.com/I0dMp2fEle7L6RaWBmwlAa)
+</details>
+
+<details>
+<summary><b> ✰ Contáctos</b></summary>
+
+* WhatsApp: [`Aquí`](https:/Wa.me/5212202410659)
+* Correo: [`Aquí`](thekingdestroy507@gmail.com)
+
+</details>
+
+
 <a
 href="https://www.mediafire.com/file/3hsvi3xkpq3a64o/termux_118.a"><img src="https://qu.ax/finc.jpg" height="125px"></a>
 
