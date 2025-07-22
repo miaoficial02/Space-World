@@ -134,42 +134,7 @@ let handler = async (m, { conn, usedPrefix, __dirname, participants }) => {
 ╰━━━━━━━━━━━━━━━━━━╯
 
 ╭━━━〔 🔞 𝗡𝗦𝗙𝗪 〕━━━╮
-┃ ✦ ${usedPrefix}nsfwloli
-┃ ✦ ${usedPrefix}nsfwfoot
-┃ ✦ ${usedPrefix}nsfwass
-┃ ✦ ${usedPrefix}nsfwbdsm
-┃ ✦ ${usedPrefix}nsfwcum
-┃ ✦ ${usedPrefix}nsfwero
-┃ ✦ ${usedPrefix}nsfwfemdom
-┃ ✦ ${usedPrefix}nsfwglass
-┃ ✦ ${usedPrefix}nsfworgy
-┃ ✦ ${usedPrefix}yuri
-┃ ✦ ${usedPrefix}yuri2
-┃ ✦ ${usedPrefix}yaoi
-┃ ✦ ${usedPrefix}yaoi2
-┃ ✦ ${usedPrefix}panties
-┃ ✦ ${usedPrefix}tetas
-┃ ✦ ${usedPrefix}booty
-┃ ✦ ${usedPrefix}ecchi
-┃ ✦ ${usedPrefix}furro
 ┃ ✦ ${usedPrefix}hentai
-┃ ✦ ${usedPrefix}trapito
-┃ ✦ ${usedPrefix}imagenlesbians
-┃ ✦ ${usedPrefix}pene
-┃ ✦ ${usedPrefix}porno
-┃ ✦ ${usedPrefix}randomxxx
-┃ ✦ ${usedPrefix}pechos
-┃ ✦ ${usedPrefix}pack
-┃ ✦ ${usedPrefix}pack2
-┃ ✦ ${usedPrefix}pack3
-┃ ✦ ${usedPrefix}videoxxx
-┃ ✦ ${usedPrefix}videoxxxlesbi
-┃ ✦ ${usedPrefix}videolesbixxx
-┃ ✦ ${usedPrefix}pornolesbivid
-┃ ✦ ${usedPrefix}pornolesbianavid
-┃ ✦ ${usedPrefix}pornolesbiv
-┃ ✦ ${usedPrefix}pornolesbianav
-┃ ✦ ${usedPrefix}pornolesv
 ╰━━━━━━━━━━━━━━━━╯
 `.trim()
 
