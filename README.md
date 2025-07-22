@@ -104,3 +104,6 @@ href="https://github.com/erenxzy"><img src="https://github.com/erenxzy.png" widt
 a href="https://github.com/kleiner1-1" style="display:inline-block; margin-right: 10px; text-decoration: none;">
     <img src="https://github.com/kleiner1-1.png" width="130" height="130" alt="Bruno Ofc" style="border-radius: 50%;"/>
 </a>
+a href="https://github.com/Deylin-Eliac" style="display:inline-block; margin-right: 10px; text-decoration: none;">
+    <img src="https://github.com/Deylin-Eliac.png" width="130" height="130" alt="Bruno Ofc" style="border-radius: 50%;"/>
+</a>
