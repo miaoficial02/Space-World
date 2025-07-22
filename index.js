@@ -43,20 +43,20 @@ let { say } = cfonts
 
 console.log(
     boxen(
-        chalk.bold.magentaBright('\n ＩＮＩＣＩＡＮＤＯ ＲＯＸＹ \n'),
+        chalk.bold.magentaBright('\n INICIANDO CON LA BOT ✨\n'),
         {
             padding: 1,
             margin: 1,
             borderStyle: 'double',
             borderColor: 'whiteBright',
             backgroundColor: 'black',
-            title: 'Roxy-MD',
+            title: 'Fenrys-MD',
             titleAlignment: 'center'
         }
     )
 )
 
-say('Roxy-MD', {
+say('FenrysBot-MD', {
     font: 'block',
     align: 'center',
     colors: ['blue'],
@@ -65,7 +65,7 @@ say('Roxy-MD', {
     lineHeight: 1
 })
 
-say('By DevBrayan', {
+say('By Proyect Fenrys', {
     font: 'console',
     align: 'center',
     colors: ['red'],
@@ -75,7 +75,7 @@ say('By DevBrayan', {
 console.log(
     chalk.bold.yellow(
         boxen(
-            '¡Bienvenido a RoxyBot!\nEl bot está arrancando, por favor espere...',
+            '¡Gracias Por Inciar Con Fenrys!\nLa bot está arrancando, por favor espere...',
             {
                 padding: 1,
                 margin: 1,
