@@ -24,16 +24,16 @@ global.owner = [
 //✎﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏
 
 // ᑎᑌᗰᗴᖇO ᗪᗴ OᗯᑎᗴᖇՏ ✨️
-global.mods = ['573001533523', '50248019799', '573133374132'];
-global.suittag = ['573001533523', '50248019799', '573133374132'];
+global.mods = ['18493907272', '', ''];
+global.suittag = ['18493907272', '', ''];
 global.prems = [];
 
 //✎﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏
 
 // IᑎᖴOᖇᗰᗩᑕIOᑎ ՏOᗷᖇᗴ ᒪᗩ ᗷOT 🍁
 global.libreria = 'Baileys';
-global.nameqr = 'RoxyBot';
-global.namebot = 'RoxyBot';
+global.nameqr = 'FenrysBot';
+global.namebot = 'FenrysBot';
 global.sessions = 'Sessions';
 global.jadi = 'JadiBots';
 global.roxyJadibts = true;
@@ -41,12 +41,12 @@ global.roxyJadibts = true;
 //✎﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏
 
 // ᗰᗩᖇᑕᗩ ᗪᗴ ᗩᘜᑌᗩ 🗞️
-global.packname = '𝗥𝗼𝘅𝘆-𝗠𝗗 (𝗠𝘂𝗹𝘁𝗶-𝗗𝗲𝘃𝗶𝗰𝗲)';
-global.botname = '🌸◌*̥₊ Rᴏxʏ-Mᴅ ◌❐🎋༉';
-global.wm = '🌸◌*̥₊ Tʜᴇ Rᴏxʏ-Bᴏᴛ ◌❐🎋༉';
-global.dev = '❁ཻུ۪۪ ⎧ ୧ㅤ 𝘉𝘳𝘢𝘺𝘢𝘯ㅤ🎋⋅ ..⃗.';
-global.textbot = 'Rᴏxʏ-Mᴅ Bʏ BʀᴀʏᴀɴXᴅ';
-global.etiqueta = 'Rᴏxʏ-Mᴅ Wʜᴀᴛsᴀᴀᴘ Bᴏᴛ';
+global.packname = '𝗙𝗲𝗻𝗿𝘆𝘀-𝗠𝗗 (𝗠𝘂𝗹𝘁𝗶-𝗗𝗲𝘃𝗶𝗰𝗲)';
+global.botname = 'ᰔᩚ𝑭𝒆𝒏𝒓𝒚𝒔𝑩𝒐𝒕-𝑴𝑫ᰔᩚ';
+global.wm = 'ᰔᩚ𝑭𝒆𝒏𝒓𝒚𝒔𝑩𝒐𝒕-𝑴𝑫ᰔᩚ';
+global.dev = '𝘉𝘺 𝘌𝘳𝘦𝘯𝘹𝘴𝘻𝘺';
+global.textbot = 'ғᴇɴʀʏs-ʙᴏᴛ ᴍᴅ';
+global.etiqueta = 'ғᴇɴʀʏs-ᴍᴅ ᴡᴀ ʙᴏᴛ';
 
 //✎﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏
 
@@ -85,18 +85,18 @@ global.photoSity = [catalogo]
 //✎﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏
 
 // ᘜᖇᑌᑭOՏ ᗪᗴ ᒪᗩ ᗷOT 🗂️
-global.gp1 = 'https://chat.whatsapp.com/F8KwM3rVqkS9HhR5msoRqQ'
-global.channel2 = 'https://whatsapp.com/channel/0029VajUPbECxoB0cYovo60W'
-global.md = 'https://github.com/El-brayan502/RoxyBot-MD'
-global.correo = 'brayanfree881@gmail.com'
-global.cn ='https://whatsapp.com/channel/0029VawF8fBBvvsktcInIz3m';
+global.gp1 = 'https://chat.whatsapp.com/JyXYAWOtXWd0VGTOHbv8EO?mode=r_c'
+global.channel2 = 'https://whatsapp.com/channel/0029VbBBn9R4NViep4KwCT3Z'
+global.md = 'https://github.com/erenxzy/FenrysBot-MD'
+global.correo = 'erenxz01@gmail.com'
+global.cn ='https://whatsapp.com/channel/0029VbBBn9R4NViep4KwCT3Z';
 
 //✎﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏
 
 global.catalogo = fs.readFileSync('./src/catalogo.jpg');
 global.estilo = { key: {  fromMe: false, participant: `0@s.whatsapp.net`, ...(false ? { remoteJid: "5219992095479-1625305606@g.us" } : {}) }, message: { orderMessage: { itemCount : -999999, status: 1, surface : 1, message: packname, orderTitle: 'Bang', thumbnail: catalogo, sellerJid: '0@s.whatsapp.net'}}}
 global.ch = {
-ch1: '120363312092804854@newsletter',
+ch1: '120363417252896376@newsletter',
 }
 
 //✎﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏
