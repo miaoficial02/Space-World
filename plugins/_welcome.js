@@ -13,12 +13,12 @@ export async function before(m, { conn }) {
 
   // Lista de 20 audios de bienvenida (puedes cambiar los enlaces)
   const bienvenidaAudios = [
-    'https://files.catbox.moe/sl0mio.mp3',
+    'https://files.cloudkuimages.guru/audios/MVdamiSr.mp3',
   ];
 
   // Lista de 20 audios de despedida (puedes cambiar los enlaces)
   const despedidaAudios = [
-    'https://files.catbox.moe/0vptnm.mp3',  
+    'https://files.cloudkuimages.guru/audios/ozBxb1si.mp3',  
   ];
 
   for (const user of participants) {
