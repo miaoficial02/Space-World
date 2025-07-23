@@ -11,34 +11,25 @@ import moment from 'moment-timezone'
 
 // ᑕOᒪᗩᗷOᖇᗩᗪOᖇᗴՏ Y ᑕᖇᗴáᗪOᖇ 🌸
 global.owner = [
-['18493907272', '𝑪𝒓𝒆𝒂𝒅𝒐𝒓 𝑭𝒆𝒏𝒓𝒚𝒔𝑩𝒐𝒕', true],
+['50231458537', '🐔 Creador Batman', true],
 ['573001533523', 'BʀᴀʏᴀɴXD', true],
-['50248019799', '🐉𝙉𝙚𝙤𝙏𝙤𝙠𝙮𝙤 𝘽𝙚𝙖𝙩𝙨🐲', true], 
-['50489513153', 'HN Cʜᴏʟɪᴛᴏ', true],
-['50433191934', 'Yᴏ Sᴏʏ Yᴏ', true],
-//['numero', 'nombre', true],
+['50248019799', '🐉𝙉𝙚𝙤𝙏𝙤𝙠𝙮𝙤 𝘽𝙚𝙖𝙩𝙨🐲', true],
+['573133374132', 'Yᴏ Sᴏʏ Yᴏ', true],
 ];
-
-// <-- Número @lid -->
-  ['1920437612698@lid', 'Erenxszy', true],
-  ['69480323522724@lid', 'NumeroBot', true],
-  ['236391074132098@lid',
-  ['194257646288953@lid'],
-  ['194257646288953'],
 
 //✎﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏
 
-// ᑎᑌᗰᗴᖇO ᗪᗴ OᗯᑎᗴᖇՏ🌼
-global.mods = ['18493907272'];
-global.suittag = ['18493907272'];
+// ᑎᑌᗰᗴᖇO ᗪᗴ OᗯᑎᗴᖇՏ ✨️
+global.mods = ['573001533523', '50248019799', '573133374132'];
+global.suittag = ['573001533523', '50248019799', '573133374132'];
 global.prems = [];
 
 //✎﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏
 
 // IᑎᖴOᖇᗰᗩᑕIOᑎ ՏOᗷᖇᗴ ᒪᗩ ᗷOT 🍁
 global.libreria = 'Baileys';
-global.nameqr = 'FenrysBot';
-global.namebot = 'FenrysBot';
+global.nameqr = 'RoxyBot';
+global.namebot = 'RoxyBot';
 global.sessions = 'Sessions';
 global.jadi = 'JadiBots';
 global.roxyJadibts = true;
@@ -46,12 +37,12 @@ global.roxyJadibts = true;
 //✎﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏
 
 // ᗰᗩᖇᑕᗩ ᗪᗴ ᗩᘜᑌᗩ 🗞️
-global.packname = '𝐅𝐞𝐧𝐫𝐲𝐬𝐁𝐨𝐭–(𝐌𝐮𝐥𝐭𝐢 𝐃𝐞𝐯𝐢𝐜𝐞)';
-global.botname = 'ᰔᩚ𝑭𝒆𝒏𝒓𝒚𝒔𝑩𝒐𝒕-𝑴𝑫ᰔᩚ';
-global.wm = 'ᰔᩚ𝑭𝒆𝒏𝒓𝒚𝒔𝑩𝒐𝒕-𝑴𝒖𝒍𝒕𝒊 𝑫𝒆𝒗𝒊𝒄𝒆ᰔᩚ';
-global.dev = 'ᰔᩚ𝑩𝒚 𝑷𝒓𝒐𝒚𝒆𝒄𝒕 𝑭𝒆𝒏𝒓𝒚𝒔𝑩𝒐𝒕ᰔᩚ';
-global.textbot = 'FᴇɴʀʏsBᴏᴛ-Mᴅ ᴡᴀ ʙᴏᴛ';
-global.etiqueta = 'FᴇɴʀʏsBᴏᴛ-Mᴅ ᴡᴀ ʙᴏᴛ';
+global.packname = '𝗥𝗼𝘅𝘆-𝗠𝗗 (𝗠𝘂𝗹𝘁𝗶-𝗗𝗲𝘃𝗶𝗰𝗲)';
+global.botname = '🌸◌*̥₊ Rᴏxʏ-Mᴅ ◌❐🎋༉';
+global.wm = '🌸◌*̥₊ Tʜᴇ Rᴏxʏ-Bᴏᴛ ◌❐🎋༉';
+global.dev = '❁ཻུ۪۪ ⎧ ୧ㅤ 𝘉𝘳𝘢𝘺𝘢𝘯ㅤ🎋⋅ ..⃗.';
+global.textbot = 'Rᴏxʏ-Mᴅ Bʏ BʀᴀʏᴀɴXᴅ';
+global.etiqueta = 'Rᴏxʏ-Mᴅ Wʜᴀᴛsᴀᴀᴘ Bᴏᴛ';
 
 //✎﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏
 
@@ -60,9 +51,9 @@ global.moneda = 'dolares';
 
 //✎﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏
 
-global.namabot = '✦ ᴍᴅ'
+global.namabot = '⫹⫺  ᴍᴅ'
 global.v = '-'   
-global.eror = "ubo un error "
+global.eror = "_ubo un error _"
 global.lopr = "🅟"
 global.lolm = "Ⓛ"
 global.dmenut = "✦ ───『"
@@ -90,18 +81,18 @@ global.photoSity = [catalogo]
 //✎﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏
 
 // ᘜᖇᑌᑭOՏ ᗪᗴ ᒪᗩ ᗷOT 🗂️
-global.gp1 = 'https://chat.whatsapp.com/JyXYAWOtXWd0VGTOHbv8EO?mode=r_c'
-global.channel2 = 'https://whatsapp.com/channel/0029VbBBn9R4NViep4KwCT3Z'
-global.md = 'https://github.com/erenxzy/FenrysBot-MD.git'
-global.correo = 'erenxz01@gmail.com'
-global.cn ='https://whatsapp.com/channel/0029VbBBn9R4NViep4KwCT3Z';
+global.gp1 = 'https://chat.whatsapp.com/F8KwM3rVqkS9HhR5msoRqQ'
+global.channel2 = 'https://whatsapp.com/channel/0029VajUPbECxoB0cYovo60W'
+global.md = 'https://github.com/El-brayan502/RoxyBot-MD'
+global.correo = 'brayanfree881@gmail.com'
+global.cn ='https://whatsapp.com/channel/0029VawF8fBBvvsktcInIz3m';
 
 //✎﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏
 
 global.catalogo = fs.readFileSync('./src/catalogo.jpg');
 global.estilo = { key: {  fromMe: false, participant: `0@s.whatsapp.net`, ...(false ? { remoteJid: "5219992095479-1625305606@g.us" } : {}) }, message: { orderMessage: { itemCount : -999999, status: 1, surface : 1, message: packname, orderTitle: 'Bang', thumbnail: catalogo, sellerJid: '0@s.whatsapp.net'}}}
 global.ch = {
-ch1: '120363417252896376@newsletter',
+ch1: '120363312092804854@newsletter',
 }
 
 //✎﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏
