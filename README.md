@@ -1,9 +1,9 @@
-<h1 align="center"> 𝗙𝗘𝗡𝗥𝗬𝗦-𝗕𝗢𝗧 </h1>
+<h1 align="center"> 𝑪.𝑨.𝑻-𝑩𝑶𝑻</h1>
 
 ---
 
 <p align="center">
-  <img src="https://files.catbox.moe/a6ub3d.jpg" alt="GonBot Logo">
+  <img src="https://files.catbox.moe/1c352a.png" alt="GonBot Logo">
 </p>
 
 ---
