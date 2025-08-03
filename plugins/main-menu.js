@@ -6,7 +6,7 @@ import PhoneNumber from 'awesome-phonenumber'
 
 let handler = async (m, { conn, usedPrefix, __dirname, participants }) => {
   try {
-    await m.react('🤍')
+    await m.react('🐈')
 
     let { exp, bank, registered } = global.db.data.users[m.sender]
     let name = await conn.getName(m.sender)
@@ -24,9 +24,9 @@ let handler = async (m, { conn, usedPrefix, __dirname, participants }) => {
     let pais = phone.getRegionCode() || 'Desconocido 🌐'
 
     const vids = [
-      'https://files.catbox.moe/1cbd0f.mp4',
-      'https://files.catbox.moe/1cbd0f.mp4',
-      'https://files.catbox.moe/1cbd0f.mp4'
+      'https://files.catbox.moe/tc3zg4.mp4',
+      '',
+      ''
     ]
     let videoUrl = vids[Math.floor(Math.random() * vids.length)]
 
