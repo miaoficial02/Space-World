@@ -42,99 +42,99 @@ let handler = async (m, { conn, usedPrefix, __dirname, participants }) => {
 
     const body = `
 ╭━━━〔 🌟 𝙁𝙀𝙉𝙍𝙔𝙎-𝘽𝙊𝙏 〕━━━╮
-┃ 👤 𝗨𝗦𝗨𝗔𝗥𝗜𝗢:${taguser}
-┃ ⏱️ 𝗔𝗖𝗧𝗜𝗩𝗢:${uptime}
-┃ 👥 𝗚𝗥𝗨𝗣𝗢𝗦:${groupUserCount} miembros
+├ׁ̟̇• 👤 𝗨𝗦𝗨𝗔𝗥𝗜𝗢:${taguser}
+├ׁ̟̇• ⏱️ 𝗔𝗖𝗧𝗜𝗩𝗢:${uptime}
+├ׁ̟̇• 👥 𝗚𝗥𝗨𝗣𝗢𝗦:${groupUserCount} miembros
 ╰━━━━━━━━━━━━━━━━━━━━━━╯
 
 ╭━━━〔 📜 𝗠𝗘𝗡𝗨 𝗙𝗘𝗡𝗥𝗬𝗦 〕━━━╮
-┃ ✦ ${usedPrefix}reg <nombre edad>
-┃ ✦ ${usedPrefix}unreg
-┃ ✦ ${usedPrefix}menu
-┃ ✦ ${usedPrefix}ping
-┃ ✦ ${usedPrefix}grupos
-┃ ✦ ${usedPrefix}owner
+├ׁ̟̇• ${usedPrefix}reg <nombre edad>
+├ׁ̟̇• ${usedPrefix}unreg
+├ׁ̟̇• ${usedPrefix}menu
+├ׁ̟̇• ${usedPrefix}ping
+├ׁ̟̇• ${usedPrefix}grupos
+├ׁ̟̇• ${usedPrefix}owner
 ╰━━━━━━━━━━━━━━━━━━━━━━╯
 
 ╭━━━〔 🤡 𝗗𝗜𝗩𝗘𝗥𝗦𝗜𝗢𝗡 〕━━━╮
-┃ ✦ ${usedPrefix}gay
-┃ ✦ ${usedPrefix}pajeame
-┃ ✦ ${usedPrefix}doxeo @usuario
-┃ ✦ ${usedPrefix}doxuer @usuario
-┃ ✦ ${usedPrefix}formarpareja
-┃ ✦ ${usedPrefix}formarpareja5
-┃ ✦ ${usedPrefix}huevo
+├ׁ̟̇• ${usedPrefix}gay
+├ׁ̟̇• ${usedPrefix}pajeame
+├ׁ̟̇• ${usedPrefix}doxeo @usuario
+├ׁ̟̇• ${usedPrefix}doxuer @usuario
+├ׁ̟̇• ${usedPrefix}formarpareja
+├ׁ̟̇• ${usedPrefix}formarpareja5
+├ׁ̟̇• ${usedPrefix}huevo
 ╰━━━━━━━━━━━━━━━━━━━━━━╯
 
 ╭━━━〔 🎌 𝗔𝗡𝗜𝗠𝗘 / 𝗥𝗢𝗟𝗘 〕━━━╮
-┃ ✦ ${usedPrefix}angry
-┃ ✦ ${usedPrefix}bite
-┃ ✦ ${usedPrefix}buenasnoches
-┃ ✦ ${usedPrefix}buenosdias
-┃ ✦ ${usedPrefix}cafe
-┃ ✦ ${usedPrefix}cry
-┃ ✦ ${usedPrefix}cuddle
-┃ ✦ ${usedPrefix}happy
-┃ ✦ ${usedPrefix}hello
-┃ ✦ ${usedPrefix}loli
-┃ ✦ ${usedPrefix}rw / w
-┃ ✦ ${usedPrefix}reclamawaifu
+├ׁ̟̇• ${usedPrefix}angry
+├ׁ̟̇• ${usedPrefix}bite
+├ׁ̟̇• ${usedPrefix}buenasnoches
+├ׁ̟̇• ${usedPrefix}buenosdias
+├ׁ̟̇• ${usedPrefix}cafe
+├ׁ̟̇• ${usedPrefix}cry
+├ׁ̟̇• ${usedPrefix}cuddle
+├ׁ̟̇• ${usedPrefix}happy
+├ׁ̟̇• ${usedPrefix}hello
+├ׁ̟̇• ${usedPrefix}loli
+├ׁ̟̇• ${usedPrefix}rw / w
+├ׁ̟̇• ${usedPrefix}reclamawaifu
 ╰━━━━━━━━━━━━━━━━━━━━━━╯
 
 ╭━━━〔 📥 𝗗𝗘𝗦𝗖𝗔𝗥𝗚𝗔𝗦 〕━━━╮
-┃ ✦ ${usedPrefix}tiktok
-┃ ✦ ${usedPrefix}play
-┃ ✦ ${usedPrefix}pindl <link>
-┃ ✦ ${usedPrefix}instagram <link>
-┃ ✦ ${usedPrefix}facebook <link>
-┃ ✦ ${usedPrefix}Pinterest <busca img> 
+├ׁ̟̇• ${usedPrefix}tiktok
+├ׁ̟̇• ${usedPrefix}play
+├ׁ̟̇• ${usedPrefix}pindl <link>
+├ׁ̟̇• ${usedPrefix}instagram <link>
+├ׁ̟̇• ${usedPrefix}facebook <link>
+├ׁ̟̇• ${usedPrefix}Pinterest <busca img> 
 ╰━━━━━━━━━━━━━━━━━━━━━━╯
 
 ╭━━━〔 👥 𝗚𝗥𝗨𝗣𝗢𝗦 〕━━━╮
-┃ ✦ ${usedPrefix}invocar
-┃ ✦ ${usedPrefix}setppgrupo
-┃ ✦ ${usedPrefix}kick <@tag>
-┃ ✦ ${usedPrefix}tag
-┃ ✦ ${usedPrefix}del
+├ׁ̟̇• ${usedPrefix}invocar
+├ׁ̟̇• ${usedPrefix}setppgrupo
+├ׁ̟̇• ${usedPrefix}kick <@tag>
+├ׁ̟̇• ${usedPrefix}tag
+├ׁ̟̇• ${usedPrefix}del
 ╰━━━━━━━━━━━━━━━━━━━╯
 
 ╭━━━〔 🤖 𝗜𝗔 & 𝗔𝗥𝗧𝗘 〕━━━╮
-┃ ✦ ${usedPrefix}magicstudio <texto>
-┃ ✦ ${usedPrefix}ai <texto>
-┃ ✦ ${usedPrefix}editfoto <desc>
-┃ ✦ ${usedPrefix}wpw
-┃ ✦ ${usedPrefix}pollinations <texto>
-┃ ✦ ${usedPrefix}gemini
-┃ ✦ ${usedPrefix}bgremover <imagen>
+├ׁ̟̇• ${usedPrefix}magicstudio <texto>
+├ׁ̟̇• ${usedPrefix}ai <texto>
+├ׁ̟̇• ${usedPrefix}editfoto <desc>
+├ׁ̟̇• ${usedPrefix}wpw
+├ׁ̟̇• ${usedPrefix}pollinations <texto>
+├ׁ̟̇• ${usedPrefix}gemini
+├ׁ̟̇• ${usedPrefix}bgremover <imagen>
 ╰━━━━━━━━━━━━━━━━━━━━━━╯
 
 ╭━━━〔 👑 𝗢𝗪𝗡𝗘𝗥 〕━━━╮
-┃ ✦ ${usedPrefix}setpp <img>
-┃ ✦ ${usedPrefix}restart
-┃ ✦ ${usedPrefix}update
-┃ ✦ ${usedPrefix}staff
-┃ ✦ ${usedPrefix}creador
+├ׁ̟̇• ${usedPrefix}setpp <img>
+├ׁ̟̇• ${usedPrefix}restart
+├ׁ̟̇• ${usedPrefix}update
+├ׁ̟̇• ${usedPrefix}staff
+├ׁ̟̇• ${usedPrefix}creador
 ╰━━━━━━━━━━━━━━━━━━╯
 
 ╭━━━〔 🖼️ 𝗦𝗧𝗜𝗖𝗞𝗘𝗥 〕━━━╮
-┃ ✦ ${usedPrefix}sticker <img>
-┃ ✦ ${usedPrefix}brat <texto>
+├ׁ̟̇• ${usedPrefix}sticker <img>
+├ׁ̟̇• ${usedPrefix}brat <texto>
 ╰━━━━━━━━━━━━━━━━━━━━╯
 
 ╭━━━〔 🧰 𝗛𝗘𝗥𝗥𝗔𝗠𝗜𝗘𝗡𝗧𝗔𝗦 〕━━━╮
-┃ ✦ ${usedPrefix}iqc <texto>
-┃ ✦ ${usedPrefix}rvocal <audio>
-┃ ✦ ${usedPrefix}tourl2
-┃ ✦ ${usedPrefix}hd
-┃ ✦ ${usedPrefix}tourl <imagen>
+├ׁ̟̇• ${usedPrefix}iqc <texto>
+├ׁ̟̇• ${usedPrefix}rvocal <audio>
+├ׁ̟̇• ${usedPrefix}tourl2
+├ׁ̟̇• ${usedPrefix}hd
+├ׁ̟̇• ${usedPrefix}tourl <imagen>
 ╰━━━━━━━━━━━━━━━━━━━━━━╯
 
 ╭━━━〔 🔰 𝗦𝗨𝗕-𝗕𝗢𝗧 〕━━━╮
-┃ ✦ ${usedPrefix}code
+├ׁ̟̇• ${usedPrefix}code
 ╰━━━━━━━━━━━━━━━━━━╯
 
 ╭━━━〔 🔞 𝗡𝗦𝗙𝗪 〕━━━╮
-┃ ✦ ${usedPrefix}hentai
+├ׁ̟̇• ${usedPrefix}hentai
 ╰━━━━━━━━━━━━━━━━╯
 `.trim()
 
