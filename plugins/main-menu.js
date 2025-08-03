@@ -16,7 +16,7 @@ let handler = async (m, { conn, usedPrefix, __dirname, participants }) => {
     let groupUserCount = m.isGroup ? participants.length : '-'
 
     let perfil = await conn.profilePictureUrl(conn.user.jid, 'image')
-      .catch(() => 'https://files.catbox.moe/9i5o9z.jpg')
+      .catch(() => 'https://files.catbox.moe/cmza9t.jpg')
 
     const userId = m.sender.split('@')[0]
     let taguser = `@${userId}`
