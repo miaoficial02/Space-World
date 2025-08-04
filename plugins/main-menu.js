@@ -35,19 +35,19 @@ let handler = async (m, { conn, usedPrefix, __dirname, participants }) => {
 
       const header = [
       ``,
-      `𝑩𝒚 𝑷𝒓𝒐𝒚𝒆𝒄𝒕 𝑭𝒆𝒏𝒓𝒚𝒔 ꨄ︎`,
+      `𝑷𝒐𝒘𝒆𝒓𝒆𝒅 𝑩𝒚 𝑴𝒊́𝒂 🐈`,
       ``
     ].join('\n')
 
 
     const body = `
-╭━━━〔 🌟 𝙁𝙀𝙉𝙍𝙔𝙎-𝘽𝙊𝙏 〕━━━╮
+╭━━━〔 🐈 𝗠𝗘𝗡𝗨 𝗕𝗢𝗧 🐈 〕━━━╮
 ├ׁ̟̇• 👤 𝗨𝗦𝗨𝗔𝗥𝗜𝗢:${taguser}
 ├ׁ̟̇• ⏱️ 𝗔𝗖𝗧𝗜𝗩𝗢:${uptime}
 ├ׁ̟̇• 👥 𝗚𝗥𝗨𝗣𝗢𝗦:${groupUserCount} miembros
 ╰━━━━━━━━━━━━━━━━━━━━━━╯
 
-╭━━━〔 📜 𝗠𝗘𝗡𝗨 𝗙𝗘𝗡𝗥𝗬𝗦 〕━━━╮
+╭━━━〔 📜 𝗖𝗔𝗧-𝗕𝗢𝗧 〕━━━╮
 ├ׁ̟̇• ${usedPrefix}reg <nombre edad>
 ├ׁ̟̇• ${usedPrefix}unreg
 ├ׁ̟̇• ${usedPrefix}menu
@@ -57,6 +57,7 @@ let handler = async (m, { conn, usedPrefix, __dirname, participants }) => {
 ╰━━━━━━━━━━━━━━━━━━━━━━╯
 
 ╭━━━〔 🤡 𝗗𝗜𝗩𝗘𝗥𝗦𝗜𝗢𝗡 〕━━━╮
+├ׁ̟̇• ${usedPrefix}frase
 ├ׁ̟̇• ${usedPrefix}gay
 ├ׁ̟̇• ${usedPrefix}pajeame
 ├ׁ̟̇• ${usedPrefix}doxeo @usuario
@@ -96,6 +97,24 @@ let handler = async (m, { conn, usedPrefix, __dirname, participants }) => {
 ├ׁ̟̇• ${usedPrefix}kick <@tag>
 ├ׁ̟̇• ${usedPrefix}tag
 ├ׁ̟̇• ${usedPrefix}del
+├ׁ̟̇• ${usedPrefix}open
+├ׁ̟̇• ${usedPrefix}close
+├ׁ̟̇• ${usedPrefix}add
+├ׁ̟̇• ${usedPrefix}miembros
+├ׁ̟̇• ${usedPrefix}listaadmins
+├ׁ̟̇• ${usedPrefix}promote
+├ׁ̟̇• ${usedPrefix}demote
+├ׁ̟̇• ${usedPrefix}groupname
+├ׁ̟̇• ${usedPrefix}groupdesc
+├ׁ̟̇• ${usedPrefix}kickall
+├ׁ̟̇• ${usedPrefix}link
+├ׁ̟̇• ${usedPrefix}infogrupo
+├ׁ̟̇• ${usedPrefix}idgrupo
+├ׁ̟̇• ${usedPrefix}warn + @usuario
+├ׁ̟̇• ${usedPrefix}unwarn + @usuario
+├ׁ̟̇• ${usedPrefix}verwarns
+├ׁ̟̇• ${usedPrefix}soloadmins on/off
+├ׁ̟̇• ${usedPrefix}antilink on/off
 ╰━━━━━━━━━━━━━━━━━━━╯
 
 ╭━━━〔 🤖 𝗜𝗔 & 𝗔𝗥𝗧𝗘 〕━━━╮
@@ -127,6 +146,12 @@ let handler = async (m, { conn, usedPrefix, __dirname, participants }) => {
 ├ׁ̟̇• ${usedPrefix}tourl2
 ├ׁ̟̇• ${usedPrefix}hd
 ├ׁ̟̇• ${usedPrefix}tourl <imagen>
+├ׁ̟̇• ${usedPrefix}short + enlace
+├ׁ̟̇• ${usedPrefix}calc
+├ׁ̟̇• ${usedPrefix}catinfo
+├ׁ̟̇• ${usedPrefix}letra
+├ׁ̟̇• ${usedPrefix}romano
+├ׁ̟̇• ${usedPrefix}translate + texto
 ╰━━━━━━━━━━━━━━━━━━━━━━╯
 
 ╭━━━〔 🔰 𝗦𝗨𝗕-𝗕𝗢𝗧 〕━━━╮
