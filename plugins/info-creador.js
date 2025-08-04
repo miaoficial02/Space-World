@@ -15,12 +15,12 @@ async function handler(m, { conn }) {
 
   const caption = `
 ╭━━━〔 👤 𝙄𝙉𝙁𝙊 𝙎𝙊𝘽𝙍𝙀 𝙀𝙇 𝘾𝙍𝙀𝘼𝘿𝙊𝙍 〕━━⬣
-┃ ✦ *Nombre:* Mia 
-┃ ➤ *Número:* wa.me/${numcreador}
-┃ ✦ *Estado:* ${about}
-┃ ➤ *Empresa:* ${empresa}
-┃ ✦ *Correo:* ${correo}
-┃ ➤ *Instagram:* ${instagram}
+┃ 👑 *Nombre:* Mia 
+┃ 👑 *Número:* wa.me/${numcreador}
+┃ 👑 *Estado:* ${about}
+┃ 👑 *Empresa:* ${empresa}
+┃ 👑 *Correo:* ${correo}
+┃ 👑 *Instagram:* ${instagram}
 ╰━━━━━━━━━━━━━━━━━━━━⬣
 
 𝙎𝙞 𝙌𝙪𝙞𝙚𝙧𝙚𝙨 𝙐𝙣 𝘽𝙤𝙩 𝙋𝙚𝙧𝙨𝙤𝙣𝙖𝙡𝙞𝙯𝙖𝙙𝙤 𝘼 𝙩𝙪 𝙂𝙪𝙨𝙩𝙤 𝙉𝙤 𝘿𝙪𝙙𝙚𝙨 𝘼 𝙀𝙨𝙘𝙧𝙞𝙗𝙞𝙧𝙢𝙚 💗
