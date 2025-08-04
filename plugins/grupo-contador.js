@@ -1,3 +1,5 @@
+//Código creado por Mía, Github: https://github.com/miaoficial02
+
 var handler = async (m, { participants }) => {
   const total = participants.length;
   const admins = participants.filter(p => p.admin).length;
