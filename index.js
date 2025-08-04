@@ -50,13 +50,13 @@ console.log(
             borderStyle: 'double',
             borderColor: 'whiteBright',
             backgroundColor: 'black',
-            title: 'Fenrys-MD',
+            title: 'Cat-Bot-MD',
             titleAlignment: 'center'
         }
     )
 )
 
-say('Fenrys-MD', {
+say('CAT-BOT', {
     font: 'block',
     align: 'center',
     colors: ['blue'],
@@ -65,7 +65,7 @@ say('Fenrys-MD', {
     lineHeight: 1
 })
 
-say('By Erenxszy', {
+say('By its.chinitaaa_', {
     font: 'console',
     align: 'center',
     colors: ['red'],
@@ -75,7 +75,7 @@ say('By Erenxszy', {
 console.log(
     chalk.bold.yellow(
         boxen(
-            '¡Gracias Por Usar Fenry \nLa bot está arrancando, por favor espere...',
+            '¡Gracias Por Usar Cat-Bot \nEl bot está arrancando, por favor espere...',
             {
                 padding: 1,
                 margin: 1,
