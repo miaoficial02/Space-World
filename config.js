@@ -32,8 +32,8 @@ global.prems = [];
 
 // IᑎᖴOᖇᗰᗩᑕIOᑎ ՏOᗷᖇᗴ ᒪᗩ ᗷOT 🍁
 global.libreria = 'Baileys';
-global.nameqr = 'FenrysBot';
-global.namebot = 'FenrysBot';
+global.nameqr = '𝐂𝐀𝐓-𝐁𝐎𝐓';
+global.namebot = '𝐂𝐀𝐓-𝐁𝐎𝐓 🐈';
 global.sessions = 'Sessions';
 global.jadi = 'JadiBots';
 global.roxyJadibts = true;
@@ -41,12 +41,12 @@ global.roxyJadibts = true;
 //✎﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏
 
 // ᗰᗩᖇᑕᗩ ᗪᗴ ᗩᘜᑌᗩ 🗞️
-global.packname = '𝗙𝗲𝗻𝗿𝘆𝘀-𝗠𝗗 (𝗠𝘂𝗹𝘁𝗶-𝗗𝗲𝘃𝗶𝗰𝗲)';
-global.botname = 'ᰔᩚ𝑭𝒆𝒏𝒓𝒚𝒔𝑩𝒐𝒕-𝑴𝑫ᰔᩚ';
-global.wm = 'ᰔᩚ𝑭𝒆𝒏𝒓𝒚𝒔𝑩𝒐𝒕-𝑴𝑫ᰔᩚ';
-global.dev = '𝘉𝘺 𝘌𝘳𝘦𝘯𝘹𝘴𝘻𝘺';
-global.textbot = 'ғᴇɴʀʏs-ʙᴏᴛ ᴍᴅ';
-global.etiqueta = 'ғᴇɴʀʏs-ᴍᴅ ᴡᴀ ʙᴏᴛ';
+global.packname = '𝐂𝐀𝐓-𝐁𝐎𝐓 🐈 (𝗠𝘂𝗹𝘁𝗶-𝗗𝗲𝘃𝗶𝗰𝗲)';
+global.botname = '🐈 𝐂𝐀𝐑-𝐁𝐎𝐓 🐈';
+global.wm = '𝐂𝐀𝐓-𝐁𝐎𝐓 🐈';
+global.dev = '𝘉𝘺 𝘔𝘪𝘢';
+global.textbot = 'ᴄᴀᴛ-ʙᴏᴛ-ᴍᴅ';
+global.etiqueta = 'ᴄᴀᴛ-ʙᴏᴛ,ʙʏ ᴍɪᴀ';
 
 //✎﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏
 
