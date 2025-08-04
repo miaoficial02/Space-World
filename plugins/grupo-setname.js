@@ -1,3 +1,5 @@
+//Código creado por Mía Github: https://github.com/miaoficial02
+
 var handler = async (m, { conn, text }) => {
   if (!text) return m.reply('✏️ Escribe el nuevo nombre del grupo.');
   await conn.groupUpdateSubject(m.chat, text);
