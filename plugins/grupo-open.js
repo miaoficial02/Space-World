@@ -1,3 +1,5 @@
+//Código creado por Mía, Github: https://github.com/miaoficial02
+
 var handler = async (m, { conn }) => {
   await conn.groupSettingUpdate(m.chat, 'not_announcement');
   m.reply('✅ Grupo abierto para que todos puedan escribir.');
