@@ -215,7 +215,7 @@ console.log(chalk.bold.cyanBright(`\n❒⸺⸺⸺⸺【• SUB-BOT •】⸺⸺�
 sock.isInit = true
 global.conns.push(sock)
 
-m?.chat ? await conn.sendMessage(m.chat, {text: args[0] ? `@${m.sender.split('@')[0]}, ya estás conectado, leyendo mensajes entrantes...` : `@${m.sender.split('@')[0]}, 𝚐𝚎𝚗𝚒𝚊𝚕 𝚢𝚊 𝚎𝚛𝚎𝚜 𝚙𝚊𝚛𝚝𝚎 𝚍𝚎 𝚕𝚊 𝚏𝚊𝚖𝚒𝚕𝚒𝚊 roxy𝙱𝚘𝚝  𝚂𝚞𝚋-𝙱𝚘𝚝𝚜`, mentions: [m.sender]}, { quoted: m }) : ''
+m?.chat ? await conn.sendMessage(m.chat, {text: args[0] ? `@${m.sender.split('@')[0]}, ya estás conectado, leyendo mensajes entrantes...` : `╔══════「 𝐒𝐔𝐁-𝐁𝐎𝐓 」══════╗\n║ 🟢 @${m.sender.split('@')[0]} conectado exitosamente.\n║\n║ 🎉 ¡Bienvenido(a) a la familia de Sub-Bots!\n║ 📌 Usa *#help* para ver los comandos disponibles.\n╚═════「 𝐂𝐎𝐍𝐄𝐂𝐓𝐀𝐃𝐎 」═════╝`, mentions: [m.sender]}, { quoted: m }) :''// '`@${m.sender.split('@')[0]}, 𝚐𝚎𝚗𝚒𝚊𝚕 𝚢𝚊 𝚎𝚛𝚎𝚜 𝚙𝚊𝚛𝚝𝚎 𝚍𝚎 𝚕𝚊 𝚏𝚊𝚖𝚒𝚕𝚒𝚊 roxy𝙱𝚘𝚝  𝚂𝚞𝚋-𝙱𝚘𝚝𝚜`'
 
 }}
 setInterval(async () => {
