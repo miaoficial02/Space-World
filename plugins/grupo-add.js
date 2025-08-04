@@ -1,3 +1,5 @@
+//Código creado por Mía, Github: https://github.com/miaoficial02
+
 var handler = async (m, { conn, text }) => {
   if (!text) return m.reply('✳️ Ingresa el número sin + ni espacios para agregar.\nEjemplo: #add 5490000000000');
 
