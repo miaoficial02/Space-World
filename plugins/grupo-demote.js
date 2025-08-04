@@ -1,3 +1,5 @@
+//Código creado por Mía, Github: https://github.com/miaoficial02
+
 var handler = async (m, { conn, participants, usedPrefix, command }) => {
   const user = m.mentionedJid[0] ? m.mentionedJid[0] : m.quoted?.sender;
   if (!user) return conn.reply(m.chat, '✿︎ Menciona a alguien para quitarle el admin.', m);
