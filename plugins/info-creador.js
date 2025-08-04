@@ -9,7 +9,7 @@ async function handler(m, { conn }) {
     (await conn.fetchStatus(ownerJid).catch(() => {}))?.status ||
     '𝘾𝙧𝙚𝙖𝙙𝙤𝙧 𝘿𝙚 𝙒𝙚𝙗 𝙈𝙤𝙙𝙞𝙛𝙞𝙘𝙖𝙙𝙤𝙧 𝘿𝙚 𝘽𝙤𝙩𝙨 𝙀𝙨𝙩𝙪𝙙𝙞𝙖𝙣𝙩𝙚 ';
   const empresa = '𝖲𝗂𝗇 E𝗆𝗉𝗋𝖾𝗌𝖺.';
-  const imagen = 'https://files.catbox.moe/v2w0qd.jpg'; // Puedes cambiar esta imagen
+  const imagen = 'https://files.catbox.moe/c8sx4b.jpg'; // Puedes cambiar esta imagen
   const correo = 'itss.mia.oficial@gmail.com';
   const instagram = 'https://instagram.com/its.chinitaaa_';
 
