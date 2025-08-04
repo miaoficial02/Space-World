@@ -1,3 +1,5 @@
+//Código creado por Mía, Github: https://github.com/miaoficial02
+
 var handler = async (m, { conn, participants }) => {
   const admins = participants.filter(p => p.admin).map(p => `@${p.id.split('@')[0]}`);
   m.reply(`👑 *Admins del grupo:*\n\n${admins.join('\n')}`, null, { mentions: participants.map(p => p.id) });
