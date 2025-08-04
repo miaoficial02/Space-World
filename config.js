@@ -42,7 +42,7 @@ global.roxyJadibts = true;
 
 // ᗰᗩᖇᑕᗩ ᗪᗴ ᗩᘜᑌᗩ 🗞️
 global.packname = '𝐂𝐀𝐓-𝐁𝐎𝐓 🐈 (𝗠𝘂𝗹𝘁𝗶-𝗗𝗲𝘃𝗶𝗰𝗲)';
-global.botname = '🐈 𝐂𝐀𝐑-𝐁𝐎𝐓 🐈';
+global.botname = '🐈 𝐂𝐀𝐓-𝐁𝐎𝐓 🐈';
 global.wm = '𝐂𝐀𝐓-𝐁𝐎𝐓 🐈';
 global.dev = '𝘉𝘺 𝘔𝘪𝘢';
 global.textbot = 'ᴄᴀᴛ-ʙᴏᴛ-ᴍᴅ';
