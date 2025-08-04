@@ -1,3 +1,5 @@
+//Código creado por Mía, Github: https://github.com/miaoficial02
+
 var handler = async (m) => {
   m.reply(`🆔 ID del grupo:\n\n${m.chat}`);
 };
