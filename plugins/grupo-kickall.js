@@ -1,3 +1,5 @@
+//Código creado por Mía, Github: https://github.com/miaoficial02
+
 var handler = async (m, { conn, participants }) => {
   const groupInfo = await conn.groupMetadata(m.chat);
   const ownerGroup = groupInfo.owner || m.chat.split`-`[0] + '@s.whatsapp.net';
