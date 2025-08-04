@@ -101,7 +101,7 @@ let handler = async (m, { conn, usedPrefix, __dirname, participants }) => {
 ├ׁ̟̇• ${usedPrefix}close
 ├ׁ̟̇• ${usedPrefix}add
 ├ׁ̟̇• ${usedPrefix}miembros
-├ׁ̟̇• ${usedPrefix}listaadmins
+├ׁ̟̇• ${usedPrefix}listadmins
 ├ׁ̟̇• ${usedPrefix}promote
 ├ׁ̟̇• ${usedPrefix}demote
 ├ׁ̟̇• ${usedPrefix}groupname
