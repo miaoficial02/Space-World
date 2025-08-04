@@ -10,10 +10,9 @@
 ### **`✧ 𝗜𝗡𝗙𝗢 𝗗𝗘 𝗟𝗔 𝗕𝗢𝗧 ✧`**
 > ᴜɴᴀ ᴡᴀɪғᴜ ᴄᴏɴ 2 ɢʀᴀɴ ʀᴀᴢᴏɴᴇs ᴅᴇ ᴄʀᴇᴀʀʟᴀ sᴜᴘᴇʀ ʙᴏᴛ ᴡʜsᴛsᴀᴘᴘ ᴘᴀʀᴀ ᴇsᴛᴇ ᴇʀᴀ ᴅᴇ ʙᴏᴛ ғᴇɴʀʏsʙᴏᴛ 2025
 
-*   *Desarrollador*: 𝑬𝒓𝒆𝒏𝒙𝒛𝒚 𝒀 𝑬𝒍 𝑷𝒓𝒐𝒚𝒆𝒄𝒕𝒐 𝑭𝒆𝒏𝒓𝒚𝒔 ꨄ︎ 
+*   *Desarrollador*: Mia 
 *   *Plataforma*: WhatsApp
-*   *Inspiración*: De Un Anime Randome xD
-*   *Características Clave*: Celosa peliadora Llorona
+*   *Inspiración*: ...
 
 ---
 
@@ -66,7 +65,7 @@ apt update && apt upgrade && pkg install -y git nodejs ffmpeg imagemagick yarn
 ```
 
 ```bash
-git clone https://github.com/erenxzy/FenrysBot-MD && cd FenrysBot-MD
+git clone https://github.com/miaoficial02/CatBot-MD && cd CatBot-MD
 ```
 
 ```bash
@@ -91,21 +90,6 @@ npm start
 
 ### **`𝑷𝑹𝑶𝑷𝑰𝑬𝑻𝑨𝑹𝑰𝑶`**
 <a
-href="https://github.com/erenxzy"><img src="https://github.com/erenxzy.png" width="130" height="130" alt="
-𝙀𝙧𝙚𝙣𝙭𝙯𝙮𝙈𝘿𝙁"/></a>
+href="https://github.com/miaoficial02"><img src="https://github.com/miaoficial02.png" width="130" height="130" alt="
+𝐌𝐈𝐀"/></a>
 
-### **`⚒︎ 𝘾𝙊𝙇𝙊𝘽𝙊𝙍𝘼𝘿𝙊𝙍𝙀𝙎 `**
-<div style="display: flex; gap: 10px;">
-  <a href="https://github.com/Elder504" style="text-decoration: none;">
-    <img src="https://github.com/Elder504.png" width="130" height="130" alt="Elder504" style="border-radius: 50%;" />
-  </a>
-  <a href="https://github.com/El-brayan502" style="text-decoration: none;">
-    <img src="https://github.com/El-brayan502.png" width="130" height="130" alt="El-brayan502" style="border-radius: 50%;" />
-  </a>
-  <a href="https://github.com/kleiner1-1" style="text-decoration: none;">
-    <img src="https://github.com/kleiner1-1.png" width="130" height="130" alt="kleiner1-1" style="border-radius: 50%;" />
-  </a>
-  <a href="https://github.com/Deylin-Eliac" style="text-decoration: none;">
-    <img src="https://github.com/Deylin-Eliac.png" width="130" height="130" alt="Deylin-Eliac" style="border-radius: 50%;" />
-  </a>
-</div>
