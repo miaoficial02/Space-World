@@ -3,7 +3,7 @@
 ---
 
 <p align="center">
-  <img src="https://files.catbox.moe/1c352a.png" alt="GonBot Logo">
+  <img src="https://files.catbox.moe/cmza9t.jpg" alt="GonBot Logo">
 </p>
 
 ---
