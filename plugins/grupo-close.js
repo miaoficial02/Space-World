@@ -1,3 +1,5 @@
+//Código creado por Mía, Github: https://github.com/miaoficial02
+
 var handler = async (m, { conn }) => {
   await conn.groupSettingUpdate(m.chat, 'announcement');
   m.reply('🔒 Grupo cerrado. Solo los admins pueden escribir.');
